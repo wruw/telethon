@@ -1,0 +1,1577 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Phone Orders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 09:51+0000\n"
+"PO-Revision-Date: 2019-03-04 09:53+0000\n"
+"Last-Translator: Orders Gloria <basehref246@yopmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /home/andrei/www/wordpress/public_html/wp-"
+"content/plugins/phone-orders\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: phone-orders-for-woocommerce-pro.php:34
+msgid ""
+"Please, <a href=\"plugins.php\">deactivate</a> Free version of Phone Orders "
+"for WooCommerce!"
+msgstr ""
+"Пожалуйста, деактивируйте бесплатную версию плагина Phone Orders for "
+"WooCommerce"
+
+#: classes/class-wc-phone-orders-loader.php:35
+msgid "Create Order"
+msgstr "Создать заказ"
+
+#: classes/class-wc-phone-orders-loader.php:166
+#, php-format
+msgid ""
+"Phone Orders For WooCommerce is available <a href=\"%s\">on this page</a>."
+msgstr ""
+"Телефонные заказы для WooCommerce доступны <a href=\"%s\"> на этой странице "
+"</a>."
+
+#: classes/class-wc-phone-orders-loader.php:216
+msgid "Phone order"
+msgstr "Заказ по телефону"
+
+#: classes/class-wc-phone-shipping-method.php:13
+#: classes/class-wc-phone-shipping-method.php:42
+msgid "Free Shipping [Phone Orders]"
+msgstr "Бесплатная доставка  [телефоные заказы]"
+
+#: classes/class-wc-phone-shipping-method.php:14
+msgid "Free Shipping in admin area only, for Phone Orders "
+msgstr "Бесплатная доставка только для администратора, для телефоных заказов"
+
+#: classes/class-wc-phone-shipping-method.php:39
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:41
+msgid "Title"
+msgstr "Название"
+
+#: classes/class-wc-phone-shipping-method.php:41
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:43
+msgid "Title to be displayed"
+msgstr "Заголовок, который будет отображаться"
+
+#: classes/class-wc-phone-orders-fill-cart.php:40
+#, php-format
+msgid "Unknown product &quot;%d&quot;."
+msgstr ""
+"Неизвестный продукт «%d».\n"
+
+#: classes/class-wc-phone-orders-fill-cart.php:44
+#, php-format
+msgid "Can not add %d &quot;%s&quot; because it is not available."
+msgstr ""
+"Невозможно добавить %d \"%s\", потому что он недоступен.\n"
+
+#: classes/class-wc-phone-orders-main.php:115
+#: classes/class-wc-phone-orders-main.php:116
+msgid "Phone Orders"
+msgstr "Телефонные заказы"
+
+#: pro_version/class-wc-phone-orders-loader-pro.php:186
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:20
+msgid "Add order"
+msgstr "Добавить заказ"
+
+#: pro_version/class-wc-phone-orders-loader-pro.php:419
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:39
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:331
+msgid "Cancel"
+msgstr "Отмена"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:40
+msgid "Apply"
+msgstr "Применить"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:41
+msgid "Remove"
+msgstr "Удалить"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:42
+msgid "Save"
+msgstr "Сохранить"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:47
+msgid "Add Coupon"
+msgstr "Добавить купон"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:48
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:106
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:154
+msgid "Type to search"
+msgstr "Начните вводить данные для поиска"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:49
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:153
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:188
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:114
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:241
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:155
+msgid "Oops! No elements found. Consider changing the search query."
+msgstr ""
+"К сожалению! Элементов не найдено. Рассмотрите возможность изменения "
+"поискового запроса."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:52
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:159
+msgid "Add custom item"
+msgstr "Добавить пользовательский элемент"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:53
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:191
+msgid "SKU"
+msgstr "Артикул:"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:54
+msgid "Tax class"
+msgstr "Налоговый класс"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:56
+msgid "Line item name"
+msgstr "Название позиции"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:57
+msgid "Price per item"
+msgstr "Поштучная цена"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:58
+msgid "Quantity"
+msgstr "Количество"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:62
+msgid "Save customer"
+msgstr "Сохранить клиента"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:63
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:137
+msgid "New customer"
+msgstr "Новый клиент"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:64
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:101
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:160
+msgid "Select option"
+msgstr "Выберите значение"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:65
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:102
+msgid "Input your address"
+msgstr "Введите адрес"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:66
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:103
+msgid "Please, enter valid Places API key at tab Settings"
+msgstr "Введите действующий ключ API мест на вкладке Настройки"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:70
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:171
+msgid "Add discount"
+msgstr "Добавить скидку"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:85
+msgid "Add Fee"
+msgstr "Добавить сбор"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:86
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:272
+msgid "Fee name"
+msgstr "Название платежа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:87
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:273
+msgid "Fee amount"
+msgstr "Величина платежа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:90
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:91
+msgid "No shipping methods available"
+msgstr "Нет доступных способов доставки"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:97
+msgid "Edit address"
+msgstr "Изменить адрес"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:98
+msgid "Save address"
+msgstr "Сохранить адрес"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:105
+msgid "Product does not exist"
+msgstr "Продукт не существует"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:106
+msgid "Product is out of stock"
+msgstr "Товара нет в наличии"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:119
+msgid "Please, enable coupons to use discounts."
+msgstr "Включите купоны для использования скидок."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:130
+msgid "Draft"
+msgstr "Проект"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:135
+msgid "Find or create a customer"
+msgstr "Найти или создать клиента"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:136
+msgid "Find a customer"
+msgstr "Найти клиента"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:138
+msgid "Billing Details"
+msgstr "Платежные реквизиты"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:139
+msgid "Ship to a different address?"
+msgstr "Отправить на другой адрес?"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:140
+msgid "Shipping Details"
+msgstr "Отгрузочные реквизиты"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:141
+msgid "No billing address was provided."
+msgstr "Не указан адрес выставления счета."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:142
+msgid "No shipping address was provided."
+msgstr "Адрес доставки не указан."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:143
+msgid "Same as shipping address."
+msgstr "То же, что и адрес доставки."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:148
+msgid "Need extra features?"
+msgstr "Нужны дополнительные функции?"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:149
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:184
+#: classes/tabs/class-wc-phone-orders-settings-page.php:82
+msgid "Buy Pro version"
+msgstr "Купить версию Pro"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:152
+msgid "Guest"
+msgstr "Гость"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:154
+msgid "Profile &rarr;"
+msgstr "Профиль  &rarr;"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:155
+msgid "View other orders &rarr;"
+msgstr "Посмотреть другие заказы  &rarr;"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:158
+msgid "Order details"
+msgstr "Информация о заказе"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:160
+msgid "Find products..."
+msgstr "Найти продукты ..."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:161
+msgid "Item"
+msgstr "Продукт"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:162
+msgid "Cost"
+msgstr "Стоимость"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:163
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:196
+msgid "Qty"
+msgstr "Кол-во"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:164
+msgid "Total"
+msgstr "Всего"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:165
+msgid "Customer provided note"
+msgstr "Заметка от заказчика"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:166
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:168
+msgid "Add a note"
+msgstr "Добавить заметку"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:167
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:230
+msgid "Private note"
+msgstr "Личная заметка"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:169
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:170
+msgid "Add coupon"
+msgstr "Добавить купон"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:172
+#: classes/tabs/class-wc-phone-orders-list-log.php:56
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:282
+msgid "Discount"
+msgstr "Скидка"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:173
+msgid "Add shipping"
+msgstr "Добавить доставку"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:174
+#: classes/tabs/class-wc-phone-orders-list-log.php:58
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:290
+msgid "Shipping"
+msgstr "Перевозка"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:175
+msgid "Recalculate"
+msgstr "Пересчитать"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:176
+msgid "Taxes"
+msgstr "Налоги"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:178
+msgid "Order Total"
+msgstr "Общая сумма заказа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:179
+msgid "Create order"
+msgstr "Создать заказ"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:180
+msgid "View order"
+msgstr "Просмотр заказа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:181
+msgid "Send invoice"
+msgstr "Отправить инвойс"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:182
+msgid "Create new order"
+msgstr "Создать новый заказ"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:183
+msgid "Want to pay order as customer?"
+msgstr "Хотите оплатить заказ как клиент?"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:190
+msgid "Delete item"
+msgstr "Удалить пункт"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:192
+#, php-format
+msgid "Only %s items can be purchased"
+msgstr "Можно приобрести только %s"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:193
+msgid "Variation ID"
+msgstr "ИД варианта:"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:195
+msgid "Edit meta"
+msgstr "Изменить мета"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:197
+msgid "Choose meta field"
+msgstr "Выберите метаполе"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:198
+msgid "Add meta"
+msgstr "Добавить мета"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:199
+msgid "Custom meta field value"
+msgstr "Пользовательское значение поля метаданных"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:200
+msgid "Custom meta field key"
+msgstr "Пользовательский мета ключ"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:201
+msgid "Сollapse edit meta"
+msgstr "Скрыть"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:205
+msgid "Choose an option"
+msgstr "Выберите опцию"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:210
+msgid "Please, choose all attributes."
+msgstr "Выберите все атрибуты."
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:211
+msgid "Manual Discount :"
+msgstr "Ручная скидка:"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:212
+msgid "Copy url to populate cart"
+msgstr "Копировать URL для заполнения тележки"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:213
+msgid "Url has been copied to clipboard"
+msgstr "Url был скопирован в буфер обмена"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:214
+msgid "Duplicate order"
+msgstr "Дублированный заказ"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:217
+msgid "Order date"
+msgstr "Дата заказа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:220
+msgctxt "hour placeholder"
+msgid "h"
+msgstr "час"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:221
+msgctxt "minute placeholder"
+msgid "m"
+msgstr "мин"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:224
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:252
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:294
+msgid "E-mail"
+msgstr "Эл. адрес"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:256
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:286
+msgid "First name"
+msgstr "Имя"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:260
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:290
+msgid "Last name"
+msgstr "Фамилия"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:283
+#: classes/tabs/class-wc-phone-orders-settings-page.php:87
+msgid "Common"
+msgstr "Общие"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:300
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:199
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:303
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:132
+msgid "Company"
+msgstr "Компания"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:307
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:211
+msgid "Phone"
+msgstr "Телефон"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:311
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:144
+msgid "Country"
+msgstr "Страна"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:315
+msgid "Address1"
+msgstr "Адрес 1"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:319
+msgid "Address2"
+msgstr "Адрес 2"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:323
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:140
+msgid "City"
+msgstr "Город"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:327
+msgid "State/County"
+msgstr "Область"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:331
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:142
+msgid "Postcode"
+msgstr "Индекс"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:493
+msgid "Can not create new product"
+msgstr "Не удается создать новый продукт"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:500
+msgid "Missing data"
+msgstr "Отсутствующие данные"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:945
+msgid "Incorrect quantity value"
+msgstr "Неверное значение количества"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:1265
+#, php-format
+msgid "Order #%s created"
+msgstr "Заказ #%s создан"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:1409
+msgid "Order not found"
+msgstr "Заказ не найден"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:1420
+msgid "A valid email address is required"
+msgstr "Требуется действительный адрес электронной почты"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:1426
+msgid "There was an error sending the email"
+msgstr "Ошибка отправки электронной почты"
+
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:1432
+#, php-format
+msgid "Invoice for order #%s has been sent to %s"
+msgstr "Инвойс для заказа #%s  был отправлен  %s"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:24
+msgid "item"
+msgstr "пункт"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:25
+msgid "items"
+msgstr "Предметы"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:40
+#: classes/tabs/class-wc-phone-orders-log-page.php:26
+#: classes/tabs/class-wc-phone-orders-log-page.php:100
+msgid "Search"
+msgstr "Поиск"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:51
+msgid "Time"
+msgstr "Время"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:52
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:97
+msgid "Username"
+msgstr "имя пользователя"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:53
+msgid "Order number"
+msgstr "Номер заказа"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:54
+msgid "Customer"
+msgstr "Клиент"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:55
+msgid "Items"
+msgstr "Предметы"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:57
+msgid "Fees"
+msgstr "Сборы"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:59
+msgid "Totals"
+msgstr "общие данные"
+
+#: classes/tabs/class-wc-phone-orders-list-log.php:177
+msgid "Customer login"
+msgstr "Вход для клиентов"
+
+#: classes/tabs/class-wc-phone-orders-log-page.php:16
+msgid "Log"
+msgstr "Журнал"
+
+#: classes/tabs/class-wc-phone-orders-log-page.php:21
+msgid "Log page"
+msgstr "Страница журнала"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:13
+msgid "Help"
+msgstr "Помощь"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:25
+msgid "Short FAQ"
+msgstr "Краткие FAQ"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:26
+msgid "Need help? Submit ticket to"
+msgstr "Нужна помощь? Добавить билет в"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:26
+msgid "helpdesk system"
+msgstr "справочная система"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:29
+msgid "How to set default country/state for new customers?"
+msgstr "Как установить страну / состояние по умолчанию для новых клиентов?"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:30
+#, php-format
+msgid "You should buy <a href=%s target=_blank>Pro version</a>."
+msgstr "Вы должны купить <a href=%s target=_blank> версию Pro </a>."
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:33
+msgid ""
+"I can't add new customer, I see popup with message “Please enter an account "
+"password”"
+msgstr ""
+"Я не могу добавить нового клиента, я вижу всплывающее окно с сообщением "
+"«Пожалуйста, введите пароль учетной записи»."
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:34
+msgid ""
+"Please, visit >Woocommerce>Settings, select tab “Accounts & Privacy” and "
+"mark checkbox “When creating an account, automatically generate an account "
+"password”."
+msgstr ""
+"Пожалуйста, посетите> Woocommerce> Настройки, выберите вкладку «Учетные "
+"записи и конфиденциальность» и отметьте флажок «При создании учетной записи "
+"автоматически создайте пароль учетной записи»."
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:37
+msgid "I don't see Free Shipping [Phone Orders] in popup"
+msgstr "Я не вижу бесплатную доставку [Телефонные заказы] во всплывающем окне"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:38
+msgid ""
+"Please, visit >WooCommerce>Settings>Shipping and add shipping method for "
+"necessary zones."
+msgstr ""
+"Пожалуйста, посетите> WooCommerce> Настройки> Доставка и добавьте способ "
+"доставки для необходимых зон."
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:41
+msgid "How to pay order?"
+msgstr "Как оплатить заказ?"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:42
+#, php-format
+msgid ""
+"<a href=%s target=_blank>Pro version</a> allows you to pay as customer, via "
+"checkout page. You can pay directly from admin area too – use <a href=%s "
+"target=_blank>this free plugin</a>. They support Stripe and Authorize.Net."
+msgstr ""
+"<a href=%s target=_blank> Pro версия </a> позволяет вам оплачивать заказчику "
+"через страницу оформления заказа. Вы можете оплачивать непосредственно из "
+"области администрирования - используйте <a href=%s target=_blank> этот "
+"бесплатный плагин </a>. Они поддерживают Stripe и Authorize.Net."
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:45
+msgid "Button \"Create Order\" does nothing"
+msgstr "Кнопка «Создать заказ» ничего не делает"
+
+#: classes/tabs/class-wc-phone-orders-help-page.php:46
+#, php-format
+msgid ""
+"Probably, there is a conflict with another plugin. <a href=%s target=_blank>"
+"Please, check javascript errors at first</a>."
+msgstr ""
+"Возможно, есть конфликт с другим плагином. <a href=%s target=_blank> Сначала "
+"проверьте ошибки javascript </a>."
+
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:205
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:134
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:217
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:224
+msgid "Customer note"
+msgstr "Примечание клиента"
+
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:267
+msgid "Coupons applied"
+msgstr "Использованы купоны"
+
+#: classes/tabs/class-wc-phone-orders-tabs-helper.php:274
+msgid "Manual discount"
+msgstr "Ручная скидка"
+
+#: classes/tabs/abstract-wc-phone-orders-tab.php:47
+msgid "Unexpected output"
+msgstr "Неожиданный вывод"
+
+#: classes/tabs/abstract-wc-phone-orders-tab.php:284
+#: classes/tabs/abstract-wc-phone-orders-tab.php:305
+#: classes/tabs/class-wc-phone-orders-settings-page.php:34
+msgid "No value"
+msgstr "Неважно"
+
+#: classes/tabs/abstract-wc-phone-orders-tab.php:333
+msgid "Not taxable"
+msgstr "Не облагается налогом"
+
+#: classes/tabs/abstract-wc-phone-orders-tab.php:337
+msgid "Standard rate"
+msgstr "Стандартная ставка"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:13
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:75
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:76
+msgid "Settings have been updated"
+msgstr "Настройки были обновлены"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:77
+msgid "Settings have not been updated"
+msgstr "Настройки не были обновлены"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:82
+msgid "Need more settings?"
+msgstr "Вам нужно больше настроек?"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:88
+msgid "Automatically update Shipping/Taxes/Totals"
+msgstr "Автоматическое обновление Shipping / Taxes / Totals"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:89
+msgid "Set payment method for created order"
+msgstr "Установить способ оплаты для созданного заказа"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:90
+msgid "Set status for created order"
+msgstr "Установить статус для созданного заказа"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:92
+msgid "Google Map API Key"
+msgstr "Ключ API карты Google"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:93
+msgid "Check"
+msgstr "Проверьте"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:94
+msgid "API Key is valid"
+msgstr "API-ключ действителен"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:95
+msgid "API Key is invalid"
+msgstr "Недопустимый ключ API"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:96
+msgid "How to get api key"
+msgstr "Как получить ключ api"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:97
+msgid "Switch customer during cart calculations"
+msgstr "Смена клиента во время расчета корзины"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:98
+msgid "required by some pricing plugins"
+msgstr "требуется некоторыми ценовыми плагинами"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:111
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:112
+msgid "Show records for last X days in log"
+msgstr "Показывать записи за последние X дней в журнале"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:113
+msgid "Show order date/time"
+msgstr "Показывать дату и время заказа"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:114
+msgid "Show button \"Copy url to populate cart\""
+msgstr "Показать кнопку «Копировать URL для заполнения корзины»"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:115
+msgid "Show icon for phone orders in orders list"
+msgstr "Показать значок для телефонных заказов в списке заказов"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:116
+msgid "Show order status"
+msgstr "Показать статус заказа"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:127
+msgid "Coupons"
+msgstr "Купоны"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:128
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:81
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:180
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:296
+msgid "Caching search results"
+msgstr "Кэширование результатов поиска"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:129
+#: classes/tabs/class-wc-phone-orders-settings-page.php:139
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:83
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:182
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:298
+msgid "hours"
+msgstr "в часах"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:130
+#: classes/tabs/class-wc-phone-orders-settings-page.php:140
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:86
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:183
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:299
+msgid "Disable cache"
+msgstr "Отключить кеш"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:131
+#: classes/tabs/class-wc-phone-orders-settings-page.php:141
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:88
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:185
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:301
+msgid "Reset cache"
+msgstr "Сбросить кеш"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:137
+msgid "References"
+msgstr "Справочники"
+
+#: classes/tabs/class-wc-phone-orders-settings-page.php:138
+msgid "Caching locations/categories/tags"
+msgstr "Кэширование локаций/категорий/тэгов"
+
+#: pro_version/classes/class-wc-phone-orders-report-register.php:10
+msgid "Sales by Phone"
+msgstr "Продажи по телефону"
+
+#: pro_version/classes/class-wc-phone-orders-report-register.php:17
+msgid "Sales Online"
+msgstr "Продажи онлайн"
+
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:13
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:44
+msgid "Custom Price [Phone Orders]"
+msgstr "Пользовательская цена [Телефонные заказы]"
+
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:14
+msgid "Custom Price in admin area only, for Phone Orders "
+msgstr "Бесплатная доставка только для администратора, для телефоных заказов"
+
+#: pro_version/classes/class-wc-phone-shipping-method-custom-price.php:60
+msgid "Default cost"
+msgstr "Стоимость по умолчанию"
+
+#: pro_version/classes/class-wc-phone-orders-switch-user.php:67
+msgid "Back to admin area."
+msgstr "Вернуться в область администрирования."
+
+#: pro_version/classes/class-wc-phone-orders-switch-user.php:70
+msgid "Back to frontend page."
+msgstr "Вернуться на страницу интерфейса."
+
+#: pro_version/classes/class-wc-phone-orders-switch-user.php:87
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:150
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:509
+msgid "Edit order"
+msgstr "Редактировать заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:67
+msgid "Run at frontend"
+msgstr "Запустить на фронтенде"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:68
+msgid "The user must be admin or has capability \"edit_shop_orders\""
+msgstr ""
+"Пользователь должен быть администратором или иметь возможность "
+"\"edit_shop_orders\""
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:69
+msgid "Accept orders at frontend page"
+msgstr "Принимать заказы на странице интерфейса"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:71
+msgid "Frontend page url"
+msgstr "URL страницы внешнего интерфейса"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:74
+msgid "Hide theme header"
+msgstr "Скрыть заголовок темы"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:76
+msgid "Hide theme footer"
+msgstr "Скрыть тему нижнего колонтитула"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:80
+msgid "Customers"
+msgstr "Клиенты"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:91
+msgid "Customer search by shipping/billing fields"
+msgstr "Поиск клиентов по отгрузке / выставлению счетов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:94
+msgid "Search for customer in orders"
+msgstr "Поиск клиента в заказах"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:96
+msgid "Number of customers to show in autocomplete"
+msgstr "Количество клиентов, которые будут отображаться в автозаполнении"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:99
+msgid "Default customer"
+msgstr "Клиент по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:103
+msgid "Automatically update customer's profile on order creation"
+msgstr "Автоматическое обновление профиля клиента при создании заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:109
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:291
+msgid "Hide shipping section"
+msgstr "Скрыть секцию доставки"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:112
+msgid "Don't close customer/address form automatically"
+msgstr "Не закрывать форму клиента / адреса автоматически"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:118
+msgid "New Customer"
+msgstr "Новый покупатель"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:120
+msgid "Show Password field"
+msgstr "Показать пароль"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:123
+msgid "You have to tell them the password"
+msgstr "Вы должны сообщить им пароль"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:125
+msgid "Show Username field"
+msgstr "Показать поле «Имя пользователя»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:128
+msgid "Email is optional"
+msgstr "Электронная почта не является обязательной"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:131
+msgid "Hide fields"
+msgstr "Скрыть поля"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:136
+msgid "Address 1"
+msgstr "Адрес 1"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:138
+msgid "Address 2"
+msgstr "Адрес 2"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:146
+msgid "State"
+msgstr "Область"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:148
+msgid "Default city"
+msgstr "Город по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:151
+msgid "Default postcode"
+msgstr "Почтовый индекс по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:154
+msgid "Default country"
+msgstr "Страна по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:157
+msgid "Default  state/county"
+msgstr "Область по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:163
+msgid "Don't fill shipping address"
+msgstr "Не заполнять адрес доставки"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:165
+msgid "Disable creating customers"
+msgstr "Отключить создание клиентов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:168
+msgid "Show Role field"
+msgstr "Показать поле «Роль»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:170
+msgid "Default role"
+msgstr "Роль по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:172
+msgid "Disable user notification email"
+msgstr "Отключить уведомление по электронной почте"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:178
+msgid "Products"
+msgstr "Товары"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:187
+msgid "Search by SKU"
+msgstr "Поиск по SKU"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:189
+msgid "Filter products by category/tags"
+msgstr "Фильтр товаров по категориям / тегам"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:191
+msgid "Number of products to show in autocomplete"
+msgstr "Количество товаров для показа в автозаполнении"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:193
+msgid "Hide fields in autocomplete"
+msgstr "Скрыть поля в автозаполнении"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:195
+msgid "Status"
+msgstr "Статус"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:197
+msgid "Price"
+msgstr "Цена"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:198
+msgid "Sku"
+msgstr "Sku"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:199
+msgid "Name"
+msgstr "название"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:200
+msgid "Show long attribute names"
+msgstr "Показывать длинные имена атрибутов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:202
+msgid "Repeat search after select product"
+msgstr "Повторить поиск после выбора товара"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:204
+msgid "Allow to duplicate products"
+msgstr "Позволить дублировать продукты"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:206
+msgid "Don't sell products with no price defined"
+msgstr "Не продавать товары без указанной цены"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:208
+msgid "Sell \"out of stock\" products"
+msgstr "Продавать товары со статусом «нет в наличии»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:210
+msgid "Add product to top of the cart"
+msgstr "Добавлять новый товар первым в корзину"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:213
+msgid "Item price precision"
+msgstr "Точность цены товара"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:214
+msgid "Disable edit meta"
+msgstr "Отключить редактирование мета"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:215
+msgid "Item price is read-only"
+msgstr "Цена товара доступна только для чтения"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:239
+msgid "Add products by default"
+msgstr "Добавить продукты по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:242
+msgid "Select items"
+msgstr "Выберите товары"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:246
+msgid "New Product"
+msgstr "Новый продукт"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:247
+msgid "Disable creating products"
+msgstr "Отключить создание продуктов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:249
+msgid "Show SKU while adding product"
+msgstr "Показывать SKU при добавлении продукта"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:251
+msgid "New product visibility"
+msgstr "Видимость нового товара"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:253
+msgid "Default tax class"
+msgstr "Класс налога по умолчанию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:254
+msgid "Show tax class selector"
+msgstr "Показать переключатель класса налога"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:270
+msgid "Fee"
+msgstr "Сбор"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:271
+msgid "Hide \"Add fee\""
+msgstr "Скрыть «Добавить плату»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:274
+msgid "Fee tax class"
+msgstr "Налоговый класс платежа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:283
+msgid "Hide \"Add discount\""
+msgstr "Скрыть кнопку \"Добавить скидку\""
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:284
+msgid "Coupon name  (used by manual discount)"
+msgstr "Название купона (используется с ручной скидкой)"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:295
+msgid "Find orders"
+msgstr "Найти заказы"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:302
+msgid "Seek in processing/completed orders only"
+msgstr "Искать только в обработке / выполненных заказах"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:304
+msgid "Show buttons"
+msgstr "Показать кнопки"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:305
+msgid "Set current price for items in copied order"
+msgstr "Установить текущую цену для предметов в скопированном заказе"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:307
+msgid "Hide \"Find orders\""
+msgstr "Скрыть \"Найти заказы\""
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:316
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:164
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:172
+msgid "Custom fields"
+msgstr "Настраиваемые поля"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:317
+msgid "Order fields"
+msgstr "Поля заказов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:318
+msgid "One field per line, use format: Label Text|custom_fieldname"
+msgstr "Одно поле в строке, используйте формат: Label Text | custom_fieldname"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:321
+msgid "Customer fields"
+msgstr "Поля клиента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:324
+msgid "Available fields for product"
+msgstr "Доступные поля для продукта"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:325
+msgid "One field per line"
+msgstr "Одно поле в строке"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:328
+msgid "Default fields for product"
+msgstr "Поля по умолчанию для продукта"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:329
+msgid "One field and value per line, separated by |, e.g meta_key|meta_value"
+msgstr ""
+"Одно поле и значение на строку, разделенное |, например meta_key | meta_value"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:333
+msgid "Checkout at frontend"
+msgstr "Завершение покупки на сайте"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:334
+msgid "Show 'Go to Cart' button"
+msgstr "Показать кнопку «Перейти к корзине»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:335
+msgid "Show 'Go to Checkout' button"
+msgstr "Показать кнопку «Перейти к кассе»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:336
+msgid "Override \"Customer payment page\" in the order"
+msgstr "Переопределить «страницу оплаты клиента» в заказе"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:337
+msgid "Pass modified product prices to frontend cart"
+msgstr "Передача измененных цен на товары во внешнюю корзину"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:359
+msgid "Hide tabs for non-admins"
+msgstr "Скрыть вкладки для не-администраторов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:360
+msgid "Show \"duplicate order\" button after order creation"
+msgstr "Показывать кнопку «дублировать заказ» после создания заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:361
+msgid "Show button \"Edit\" in orders list"
+msgstr "Показать кнопку «Изменить» в списке заказов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:362
+msgid "Hide button \"Pay as customer\""
+msgstr "Скрыть кнопку \"Оплатить как клиент\""
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:363
+msgid "Hide button \"Create order\""
+msgstr "Скрыть кнопку «Создать заказ»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:364
+msgid "Hide button \"Put on hold\""
+msgstr "Скрыть кнопку «Поставить на удержание»"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-settings-page-pro.php:386
+msgid "Hide warning about disabled coupons"
+msgstr "Скрыть предупреждение об отключенных купонах"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:15
+msgid "License"
+msgstr "Лицензия"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:18
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:67
+msgid "not found"
+msgstr "Заказ не найден"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:19
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:68
+msgid "is not activable"
+msgstr "не активируется"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:20
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:69
+msgid "revoked"
+msgstr "отозвана"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:21
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:70
+msgid "no activations left"
+msgstr "никаких активаций не осталось"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:22
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:71
+msgid "expired"
+msgstr "истекший"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:23
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:72
+msgid "key mismatch"
+msgstr "ключ несоответствует"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:24
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:73
+msgid "invalid item ID"
+msgstr "неверный идентификатор элемента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:25
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:74
+msgid "item name mismatch"
+msgstr "несоответствие имени элемента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:45
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:85
+msgid "Plugin License"
+msgstr "Лицензия плагина"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:46
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:94
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:47
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:100
+msgid "look for it inside purchase receipt (email)"
+msgstr "искать его внутри квитанции о покупке (электронная почта)"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:48
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:109
+msgid "License is active"
+msgstr "Лицензия активна"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:49
+msgid "License is inactive"
+msgstr "Лицензия не активна"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:50
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:113
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:51
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:121
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:70
+msgid ">Dashboard > Updates"
+msgstr "> Панель инструментов> Обновления"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:74
+msgid "Licenses"
+msgstr "Лицензии"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:77
+#, php-format
+msgid ""
+"The license key you received when completing your purchase from %s will "
+"grant you access to updates until it expires."
+msgstr ""
+"Лицензионный ключ, полученный вами при завершении покупки  на %s, "
+"предоставит вам доступ к обновлениям до истечения срока его действия.\n"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:79
+msgid ""
+"You do not need to enter the key below for the plugin to work, but you will "
+"need to enter it to get automatic updates."
+msgstr ""
+"Вам не нужно вводить ключ ниже, чтобы плагин работал, но вам нужно будет "
+"ввести его для автоматического обновления."
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:82
+#, php-format
+msgid ""
+"If you're seeing a red message telling you that your key isn't valid or is "
+"out of installs, %s visit %s to manage your installs or renew / upgrade your "
+"license."
+msgstr ""
+"Если вы видите красное сообщение о том, что ваш ключ недействителен или не "
+"установлен,%s посетите %s для управления вашими установками или обновления "
+"вашей лицензии."
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:85
+#, php-format
+msgid ""
+"Not seeing an update but expecting one? In WordPress, go to %s and click "
+"\"Check Again\"."
+msgstr ""
+"Не видите обновления, но ожидаете его? В WordPress перейдите в %s и нажмите "
+"«Проверить снова».\n"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:98
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:123
+#: pro_version/classes/tabs/class-wc-phone-orders-license-page.php:149
+msgid "Connection error"
+msgstr "Ошибка соединения"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:93
+msgid "Password"
+msgstr "Пароль"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:101
+msgid "Role"
+msgstr "Роль"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:115
+msgid "Clear cart"
+msgstr "Очистить корзину"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:127
+msgid "Save to customer"
+msgstr "Сохранить клиента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:134
+msgid "Tax exempt"
+msgstr "Освобождение от налогов"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:148
+msgid "Find existing order"
+msgstr "Найти заказы"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:149
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:508
+msgid "Copy order"
+msgstr "Копировать заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:151
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:734
+msgid "Current order was copied from order"
+msgstr "Текущий заказ был скопирован из заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:152
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:727
+msgid "You edit order"
+msgstr "Вы редактируете заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:153
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:721
+msgid "You edit unfinished order"
+msgstr "Вы редактируете неопубликованный заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:242
+msgid "Category"
+msgstr "Категория"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:243
+msgid "Select a category"
+msgstr "Выбрать категорию"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:244
+msgid "Tag"
+msgstr "Тег"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:245
+msgid "Select a tag"
+msgstr "Выбрать тег"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:315
+msgid "Add fee"
+msgstr "Добавить сбор"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:327
+msgid "Put on hold"
+msgstr "На удержание"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:328
+msgid "Go to Cart"
+msgstr "Перейти в корзину"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:329
+msgid "Go to Checkout"
+msgstr "Перейти к оформлению заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:330
+msgid "Update order"
+msgstr "Обновить заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:332
+msgid "Clear all"
+msgstr "Очистить все"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:333
+msgid "Pay order as the customer"
+msgstr "Оплатить заказ в качестве клиента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:334
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:342
+msgid "Order completed"
+msgstr "Заказ выполнен"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:341
+msgid "Edit created order"
+msgstr "Изменить созданный заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:495
+msgid "order # "
+msgstr "заказ #"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:505
+msgid "Resume order"
+msgstr "Возобновить заказ"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:820
+#, php-format
+msgid "Order #%s created and put on hold"
+msgstr "Заказ #%s создан и приостановлен"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:935
+#, php-format
+msgid "Order #%s updated"
+msgstr "Заказ #%s обновлен"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1021
+#, php-format
+msgid "Order #%s has status \"%s\""
+msgstr "Заказ #%s имеет статус \"%s\""
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1038
+msgid "Incorrect order ID"
+msgstr "Неверный идентификатор заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1043
+msgid "Error when getting order"
+msgstr "Ошибка при получении заказа"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1070
+msgid "Customer cookie set error"
+msgstr "Ошибка набора cookie клиента"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1079
+msgid "Current user cookie set error"
+msgstr "Ошибка текущего пользователя cookie"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1087
+msgid "Current user referrer cookie set error"
+msgstr "Ошибка установки файла cookie для текущего пользователя"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1114
+msgid "Incorrect redirect destination"
+msgstr "Неправильное перенаправление адресата"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1119
+msgid "Incorrect cart data"
+msgstr "Неверные данные корзины"
+
+#: pro_version/classes/tabs/class-wc-phone-orders-add-order-page-pro.php:1185
+msgid "Creating customers is disabled"
+msgstr "Создание клиентов отключено"
+
+#: pro_version/classes/updater/class-wc-phone-orders-updater.php:244
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Доступна новая версия %1$s.  %2$s View version %3$s details %4$s."
+
+#: pro_version/classes/updater/class-wc-phone-orders-updater.php:253
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Доступна новая версия %1$s. %2$s View version %3$s details %4$s или %5$ "
+"supdate now %6$s."
+
+#: pro_version/classes/updater/class-wc-phone-orders-updater.php:349
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас нет разрешения на установку обновлений плагина"
+
+#: pro_version/classes/updater/class-wc-phone-orders-updater.php:350
+msgid "Error"
+msgstr "Ошибка"
+
+#: pro_version/classes/updater/class-wc-phone-orders-edd.php:116
+msgid "License is inactive:"
+msgstr "Лицензия неактивна:"
+
+#. Name of the plugin
+msgid "Phone Orders for WooCommerce (Pro)"
+msgstr "Телефонные заказы для WooCommerce (Pro)"
+
+#. Description of the plugin
+msgid "Create manual/phone orders in WooCommerce quickly"
+msgstr "Создание заказов вручную / телефона в WooCommerce"
+
+#. Author of the plugin
+msgid "AlgolPlus"
+msgstr "AlgolPlus"
+
+#. Author URI of the plugin
+msgid "http://algolplus.com/"
+msgstr "http://algolplus.com/"

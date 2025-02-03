@@ -1,0 +1,16 @@
+module.exports = {
+    TabLicense: require( './tabs/license.vue' ),
+    ProSettings: require( './tabs/tab-settings/settings.vue' ),
+    FindExistingOrder: require( './tabs/tab-add-order/find_existing_order.vue' ),
+    SaveToCustomer: require( './tabs/tab-add-order/save_to_customer.vue' ),
+    TaxExempt: require( './tabs/tab-add-order/tax_exempt.vue' ),
+    ProductsCategoryTagsFilter: require( './tabs/tab-add-order/products_category_tags_filter.vue' ),
+    ClearCart: require( './tabs/tab-add-order/clear_cart.vue' ),
+    OrderCustomFields: require( './tabs/tab-add-order/order_custom_fields.vue' ),
+    CustomerCustomFields: require( './tabs/tab-add-order/customer_custom_fields.vue' ),
+    AddFee: require( './tabs/tab-add-order/add_fee.vue' ),
+    FooterButtons1: require( './tabs/tab-add-order/footer_buttons_1.vue' ),
+    FooterButtons2: require( './tabs/tab-add-order/footer_buttons_2.vue' ),
+    ProInterfaceSettings: require( './tabs/tab-settings/interface_settings.vue' ),
+    ProCouponsSettings: require( './tabs/tab-settings/coupons_settings.vue' ),
+};

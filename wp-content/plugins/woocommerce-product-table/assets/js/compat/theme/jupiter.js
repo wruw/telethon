@@ -1,0 +1,1 @@
+jQuery(".wc-product-table").on("responsiveDisplay.wcpt",(function(t,n,u){u.find("div.quantity:not(.buttons_added)").addClass("buttons_added").append('<input type="button" value="+" class="plus" />').prepend('<input type="button" value="-" class="minus" />')}));

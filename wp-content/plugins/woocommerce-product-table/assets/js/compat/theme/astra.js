@@ -1,0 +1,1 @@
+jQuery(".wc-product-table").on("draw.wcpt",(function(){"function"==typeof astrawpWooQuantityButtons&&astrawpWooQuantityButtons()}));

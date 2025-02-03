@@ -1,0 +1,1 @@
+(()=>{var t;(t=jQuery)(".wc-product-table").on("responsiveDisplay.wcpt draw.wcpt",(function(){t.fn.addQty&&t(this).find(".cart .quantity").remove(".plus",".minus").addQty()}))})();

@@ -1,0 +1,21 @@
+ .woocommerce_options_panel input[type=text].wpas_st_date, .woocommerce_options_panel input[type=text].wpas_end_date
+{
+width: 200px;	
+}
+.woocommerce_options_panel input[type=text].wpas_st_time {
+   width: auto; 
+   margin: 2px;
+  
+}
+.woocommerce_options_panel .wpas_select_start_time .wpas_at,.wpas_colon,.wpas_comma,.wpas_select_end_time .wpas_at,.wpas_colon,.wpas_comma{
+	float: left;
+}
+p.form-field.wpas_note {
+    color: red;
+}
+li.wpas-schedule-sale-tab_tab>a:before {
+    content: "\f508" !important;
+}
+.wpas_widget_limit{
+	width: 45px;
+}

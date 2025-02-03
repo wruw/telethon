@@ -1,0 +1,1 @@
+(()=>{var t;(t=jQuery)("body").on("click.wcpt",".et_pb_toggle_title",(function(){t(this).closest(".et_pb_toggle").hasClass("et_pb_toggle_close")&&setTimeout((function(){t.fn.dataTable.tables({visible:!0,api:!0}).columns.adjust()}),705)}))})();

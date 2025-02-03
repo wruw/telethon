@@ -1,0 +1,108 @@
+.wpas_coundown_shop ul
+{
+	 list-style-type: none;
+    margin-bottom: 5px;
+    max-width: 250px;
+}
+.wpas_coundown_single ul{
+    list-style-type: none;
+    margin-bottom: 5px;
+    width: 250px;
+	margin: 0;
+}
+.wpas_coundown_shop ul li,
+.wpas_coundown_single ul li{
+    float: left;
+    text-align: center;
+    padding: 5px 0 !important;
+    width: 25%;
+	
+}
+.wpas_coundown_shop ul li>div,
+.wpas_coundown_single ul li>div{
+    max-width: 75px;
+    color: #3b3b3b;
+}
+.wpas_coundown_shop ul li>div {
+    margin: 0 5px 0 0;
+}
+.wpas_coundown_single ul li>div{
+	margin: 0 10px 0 0;
+}
+.wpas_coundown_single>span {
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.wpas_coundown_shop ul li span,
+.wpas_coundown_single ul li span{
+    display: block;
+}
+.wpas_coundown_shop ul li span.wpas_count_lable,
+.wpas_coundown_single ul li span.wpas_count_lable{
+    white-space: nowrap;
+}
+.wpas_coundown_shop ul li span.wpas_count_digit{
+	font-size: 14px;
+}
+.wpas_coundown_shop ul li span.wpas_count_digit,
+.wpas_coundown_single ul li span.wpas_count_digit{
+    font-weight: 600;
+}
+.wpas_coundown_shop ul li span.wpas_count_digit{
+	line-height: 40px;
+}
+.wpas_coundown_single ul li span.wpas_count_digit{
+	line-height: 60px;
+	font-size: 20px;
+}
+.wpas_coundown_shop ul li span.wpas_count_digit,
+.wpas_coundown_single ul li span.wpas_count_digit{
+	font-weight: 600;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px #b1b1b1;
+	position: relative;
+	text-align: center;
+}
+.wpas_coundown_shop ul li span.wpas_count_digit:before,
+.wpas_coundown_single ul li span.wpas_count_digit:before {
+    content: '';
+    position: absolute;
+    background-color: #dcdcdc;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    top: 50%;
+	margin-top: -1px;
+}
+.wpas_coundown_shop>span,
+.wpas_coundown_shop ul li span.wpas_count_lable{
+    font-size: 13px;
+}
+.wpas_coundown_shop ul li span.wpas_count_lable,
+.wpas_coundown_single ul li span.wpas_count_lable{
+	color: #5a5a5a;
+	margin-top: 5px;
+}
+.wpas_coundown_single ul li span.wpas_count_lable{
+    font-size: 14px;
+}
+.wpas_coundown_shop {
+    padding: 0 5px;
+	display: grid;
+	
+}
+.wpas_coundown_single
+{
+	display: table;
+}
+@media (max-width:480px){
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
+		width: 100% !important;
+	}
+	.wpas_coundown_single>span {
+    font-size: 15px;
+	}
+}

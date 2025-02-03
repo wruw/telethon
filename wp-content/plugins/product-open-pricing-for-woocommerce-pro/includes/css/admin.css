@@ -1,0 +1,19 @@
+.wpwham-license-status {
+  border: 2px solid #999;
+  border-radius: 3px;
+  color: #777;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 2px 10px;
+}
+
+.wpwham-license-active,
+.wpwham-license-valid {
+  border-color: #60ad5d;
+  color: #60ad5d;
+}
+
+.wpwham-license-invalid {
+  border-color: #D41D1D;
+  color: #D41D1D;
+}
