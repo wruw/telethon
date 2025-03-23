@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Phone Orders for WooCommerce (Pro)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:24+0000\n"
-"PO-Revision-Date: 2024-11-27 07:14+0000\n"
+"PO-Revision-Date: 2025-02-12 06:47+0000\n"
 "Last-Translator: Lumpur Koa\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -49,6 +49,12 @@ msgstr "Lisää Kuponki"
 msgid "Add coupon"
 msgstr "Lisää kuponki"
 
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:98
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:459
+#| msgid "Create custom product"
+msgid "Add custom product"
+msgstr "Lisää mukautettu tuote"
+
 #: classes/tabs/class-wc-phone-orders-add-order-page.php:159
 #: classes/tabs/class-wc-phone-orders-add-order-page.php:482
 msgid "Add discount"
@@ -92,11 +98,11 @@ msgstr "Lisää Tilata"
 msgid "Address Validation Service API Key (USPS Username)"
 msgstr "Address Validation Service API-Avain (USPS Käyttäjätunnus)"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:829
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:825
 msgid "Address1"
 msgstr "Osoite"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:833
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:829
 msgid "Address2"
 msgstr "Osoitteen lisärivi"
 
@@ -239,7 +245,7 @@ msgstr "Valitse meta kenttä"
 msgid "Choose period"
 msgstr "Valitse jakso"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:837
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:833
 msgid "City"
 msgstr "Kaupunki"
 
@@ -256,7 +262,7 @@ msgstr "Romahdus WordPress menu"
 msgid "Common"
 msgstr "Yhteinen"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:817
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:821
 msgid "Company"
 msgstr "Yritys"
 
@@ -291,7 +297,7 @@ msgstr "Kopioi url-osoite asuttamaan ostoskoriin"
 msgid "Cost"
 msgstr "Hinta"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:825
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:817
 msgid "Country"
 msgstr "Maa"
 
@@ -307,11 +313,6 @@ msgstr "Kuponkeja"
 msgid "Coupons applied"
 msgstr "Kuponkeja sovelletaan"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:98
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:459
-msgid "Create custom product"
-msgstr "Luo mukautettuja tuotteen"
-
 #. Description of the plugin
 msgid "Create manual/phone orders in WooCommerce quickly"
 msgstr "Luo manuaalinen/puhelin tilaukset WooCommerce nopeasti"
@@ -321,7 +322,7 @@ msgid "Create new order"
 msgstr "Luo uusi järjestys"
 
 #: classes/class-wc-phone-orders-loader.php:69
-#: classes/class-wc-phone-orders-loader.php:460
+#: classes/class-wc-phone-orders-loader.php:458
 msgid "Create Order"
 msgstr "Tee tilaus"
 
@@ -392,7 +393,7 @@ msgstr ""
 "Näytä automaattisen täydennyksen tulokset vain valituille maille (Google Map "
 "API)"
 
-#: classes/class-wc-phone-orders-loader.php:464
+#: classes/class-wc-phone-orders-loader.php:462
 msgid "Docs"
 msgstr "Dokumentointi"
 
@@ -478,7 +479,7 @@ msgstr "Etsi tuotteita..."
 msgid "First name"
 msgstr "Etunimi"
 
-#: classes/class-wc-phone-orders-loader.php:378
+#: classes/class-wc-phone-orders-loader.php:376
 msgid "five star"
 msgstr "viiden tähden"
 
@@ -592,7 +593,7 @@ msgstr ""
 "tukipyyntö</a> ja liitä siihen luotu raportti."
 
 #. 1: WooCommerce 2:: five stars
-#: classes/class-wc-phone-orders-loader.php:370
+#: classes/class-wc-phone-orders-loader.php:368
 #, php-format
 msgid ""
 "If you like %1$s please leave us a %2$s rating. Thank you so much in advance!"
@@ -757,8 +758,8 @@ msgstr "Ei toimitustapa on valittu."
 msgid "No shipping methods available"
 msgstr "Ei toimitustavat saatavilla"
 
-#: classes/class-wc-phone-orders-cart-updater.php:1650
-#: classes/class-wc-phone-orders-cart-updater.php:1687
+#: classes/class-wc-phone-orders-cart-updater.php:1659
+#: classes/class-wc-phone-orders-cart-updater.php:1696
 #: classes/tabs/abstract-wc-phone-orders-tab.php:445
 #: classes/tabs/abstract-wc-phone-orders-tab.php:466
 msgid "No value"
@@ -857,11 +858,11 @@ msgid "Payment Type"
 msgstr "Maksu Tyyppi"
 
 #: classes/tabs/class-wc-phone-orders-tabs-helper.php:233
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:821
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:845
 msgid "Phone"
 msgstr "Puhelin"
 
-#: classes/class-wc-phone-orders-loader.php:481
+#: classes/class-wc-phone-orders-loader.php:479
 msgid "Phone order"
 msgstr "Puhelin tilaa"
 
@@ -871,17 +872,17 @@ msgid "Phone Orders"
 msgstr "Puhelin Tilauksia"
 
 #. Name of the plugin
-#: classes/class-wc-phone-orders-loader.php:376
+#: classes/class-wc-phone-orders-loader.php:374
 msgid "Phone Orders for WooCommerce"
 msgstr "Puhelin Tilaukset, WooCommerce"
 
-#: classes/class-wc-phone-orders-loader.php:256
+#: classes/class-wc-phone-orders-loader.php:254
 #, php-format
 msgid ""
 "Phone Orders For WooCommerce is available <a href=\"%s\">on this page</a>."
 msgstr "Puhelintilaukset WooCommercelle on käytettävissä tällä sivulla."
 
-#: phone-orders-for-woocommerce.php:62
+#: phone-orders-for-woocommerce.php:61
 msgid "Phone Orders for WooCommerce requires active WooCommerce!"
 msgstr "WooCommercen puhelintilaukset edellyttävät aktiivista WooCommercea!"
 
@@ -895,7 +896,7 @@ msgstr "PHP-tiedostoja ei sallita"
 msgid "Please fill out all required fields!"
 msgstr "Täytä kaikki pakolliset kentät!"
 
-#: phone-orders-for-woocommerce.php:36
+#: phone-orders-for-woocommerce.php:35
 msgid ""
 "Please, <a href=\"plugins.php\">deactivate</a> Free version of Phone Orders "
 "for WooCommerce!"
@@ -955,7 +956,7 @@ msgstr ""
 "Ole hyvä ja tarkista >WooCommerce>Asetukset>Toimitus ja lisää toimitustapa "
 "tarpeelliselle alueelle."
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:845
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:841
 msgid "Postcode"
 msgstr "Postinumero"
 
@@ -1205,7 +1206,7 @@ msgstr "SKU"
 msgid "Standard rate"
 msgstr "Verokannan"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:841
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:837
 msgid "State/County"
 msgstr "State/County"
 
@@ -1221,7 +1222,7 @@ msgstr "Street numero"
 msgid "Subtotal"
 msgstr "Yhteensä"
 
-#: classes/class-wc-phone-orders-loader.php:468
+#: classes/class-wc-phone-orders-loader.php:466
 msgid "Support"
 msgstr "Tuki"
 
@@ -1241,7 +1242,7 @@ msgstr "Vero-luokka"
 msgid "Taxes"
 msgstr "Verot"
 
-#: classes/class-wc-phone-orders-loader.php:381
+#: classes/class-wc-phone-orders-loader.php:379
 msgid "Thanks :)"
 msgstr "Kiitos :)"
 

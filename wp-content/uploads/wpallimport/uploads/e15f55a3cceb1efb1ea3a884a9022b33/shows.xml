@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<showname><![CDATA[A Different Drum]]></showname>
+		<slug><![CDATA[a-different-drum]]></slug>
+		<undefined2><![CDATA[a-different-drum|A Different Drum]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[A Good Companion]]></showname>
+		<slug><![CDATA[a-good-companion]]></slug>
+		<undefined2><![CDATA[a-good-companion|A Good Companion]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Accidental Realism]]></showname>
+		<slug><![CDATA[accidental-realism]]></slug>
+		<undefined2><![CDATA[accidental-realism|Accidental Realism]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Aging Hipster Blues]]></showname>
+		<slug><![CDATA[aging-hipster-blues]]></slug>
+		<undefined2><![CDATA[aging-hipster-blues|Aging Hipster Blues]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Aladdin's Airwaves]]></showname>
+		<slug><![CDATA[aladdins-airwaves]]></slug>
+		<undefined2><![CDATA[aladdins-airwaves|Aladdin's Airwaves]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Astral Trash]]></showname>
+		<slug><![CDATA[astral-trash]]></slug>
+		<undefined2><![CDATA[astral-trash|Astral Trash]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Audio Daydream]]></showname>
+		<slug><![CDATA[audio-daydream]]></slug>
+		<undefined2><![CDATA[audio-daydream|Audio Daydream]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Aware of the Plan]]></showname>
+		<slug><![CDATA[aware-of-the-plan]]></slug>
+		<undefined2><![CDATA[aware-of-the-plan|Aware of the Plan]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Beat Matrix]]></showname>
+		<slug><![CDATA[beat-matrix]]></slug>
+		<undefined2><![CDATA[beat-matrix|Beat Matrix]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Beautiful Dreadnought]]></showname>
+		<slug><![CDATA[beautiful-dreadnought]]></slug>
+		<undefined2><![CDATA[beautiful-dreadnought|Beautiful Dreadnought]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Caribella]]></showname>
+		<slug><![CDATA[caribella]]></slug>
+		<undefined2><![CDATA[caribella|Caribella]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Cat Fight]]></showname>
+		<slug><![CDATA[cat-fight]]></slug>
+		<undefined2><![CDATA[cat-fight|Cat Fight]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Charlie Saber's Rock & Country Casserole]]></showname>
+		<slug><![CDATA[charlie-sabers-rock-country-casserole]]></slug>
+		<undefined2><![CDATA[charlie-sabers-rock-country-casserole|Charlie Saber's Rock & Country Casserole]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Chasing Infinity]]></showname>
+		<slug><![CDATA[chasing-infinity]]></slug>
+		<undefined2><![CDATA[chasing-infinity|Chasing Infinity]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[DareWaves]]></showname>
+		<slug><![CDATA[darewaves]]></slug>
+		<undefined2><![CDATA[darewaves|DareWaves]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Dead Airplay Record Club]]></showname>
+		<slug><![CDATA[dead-airplay-record-club]]></slug>
+		<undefined2><![CDATA[dead-airplay-record-club|Dead Airplay Record Club]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Defend Cleveland]]></showname>
+		<slug><![CDATA[defend-cleveland]]></slug>
+		<undefined2><![CDATA[defend-cleveland|Defend Cleveland]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Democracy Now]]></showname>
+		<slug><![CDATA[democracy-now]]></slug>
+		<undefined2><![CDATA[democracy-now|Democracy Now]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Digital Horizons]]></showname>
+		<slug><![CDATA[digital-horizons]]></slug>
+		<undefined2><![CDATA[digital-horizons|Digital Horizons]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[dirt don't hurt]]></showname>
+		<slug><![CDATA[dirt-dont-hurt]]></slug>
+		<undefined2><![CDATA[dirt-dont-hurt|dirt don't hurt]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Diversified, Inc.]]></showname>
+		<slug><![CDATA[diversified-inc]]></slug>
+		<undefined2><![CDATA[diversified-inc|Diversified, Inc.]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Down by the Cuyahoga]]></showname>
+		<slug><![CDATA[down-by-the-cuyahoga]]></slug>
+		<undefined2><![CDATA[down-by-the-cuyahoga|Down by the Cuyahoga]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[El Gato Blanco]]></showname>
+		<slug><![CDATA[el-gato-blanco]]></slug>
+		<undefined2><![CDATA[el-gato-blanco|El Gato Blanco]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Electric Feel]]></showname>
+		<slug><![CDATA[electric-feel]]></slug>
+		<undefined2><![CDATA[electric-feel|Electric Feel]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Enter Galactic]]></showname>
+		<slug><![CDATA[enter-galactic]]></slug>
+		<undefined2><![CDATA[enter-galactic|Enter Galactic]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Erie Effusion]]></showname>
+		<slug><![CDATA[erie-effusion]]></slug>
+		<undefined2><![CDATA[erie-effusion|Erie Effusion]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Exploding Plastic Inevitable]]></showname>
+		<slug><![CDATA[exploding-plastic-inevitable]]></slug>
+		<undefined2><![CDATA[exploding-plastic-inevitable|Exploding Plastic Inevitable]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Fast, Loud, and Terrible]]></showname>
+		<slug><![CDATA[fast-loud-and-terrible]]></slug>
+		<undefined2><![CDATA[fast-loud-and-terrible|Fast, Loud, and Terrible]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Fat Monday]]></showname>
+		<slug><![CDATA[fat-monday]]></slug>
+		<undefined2><![CDATA[fat-monday|Fat Monday]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Gaywaves]]></showname>
+		<slug><![CDATA[gaywaves]]></slug>
+		<undefined2><![CDATA[gaywaves|Gaywaves]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Gearing Up to Get Ill]]></showname>
+		<slug><![CDATA[gearing-up-to-get-ill]]></slug>
+		<undefined2><![CDATA[gearing-up-to-get-ill|Gearing Up to Get Ill]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Guilty Pleasures]]></showname>
+		<slug><![CDATA[guilty-pleasures]]></slug>
+		<undefined2><![CDATA[guilty-pleasures|Guilty Pleasures]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Hear and Now]]></showname>
+		<slug><![CDATA[hear-and-now]]></slug>
+		<undefined2><![CDATA[hear-and-now|Hear and Now]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[In the Groove]]></showname>
+		<slug><![CDATA[in-the-groove]]></slug>
+		<undefined2><![CDATA[in-the-groove|In the Groove]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Innominate]]></showname>
+		<slug><![CDATA[innominate]]></slug>
+		<undefined2><![CDATA[innominate|Innominate]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[It's About Justice]]></showname>
+		<slug><![CDATA[its-about-justice]]></slug>
+		<undefined2><![CDATA[its-about-justice|It's About Justice]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Ivy's Red Sweater]]></showname>
+		<slug><![CDATA[ivys-red-sweater]]></slug>
+		<undefined2><![CDATA[ivys-red-sweater|Ivy's Red Sweater]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Latin Perspective]]></showname>
+		<slug><![CDATA[latin-perspective]]></slug>
+		<undefined2><![CDATA[latin-perspective|Latin Perspective]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Laying Down Tracks]]></showname>
+		<slug><![CDATA[laying-down-tracks]]></slug>
+		<undefined2><![CDATA[laying-down-tracks|Laying Down Tracks]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Lend Me Your Ear]]></showname>
+		<slug><![CDATA[lend-me-your-ear]]></slug>
+		<undefined2><![CDATA[lend-me-your-ear|Lend Me Your Ear]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Live From Cleveland]]></showname>
+		<slug><![CDATA[live-from-cleveland]]></slug>
+		<undefined2><![CDATA[live-from-cleveland|Live From Cleveland]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Metal Meltdown]]></showname>
+		<slug><![CDATA[metal-meltdown]]></slug>
+		<undefined2><![CDATA[metal-meltdown|Metal Meltdown]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Metal Meltdown Overnight]]></showname>
+		<slug><![CDATA[metal-meltdown-overnight]]></slug>
+		<undefined2><![CDATA[metal-meltdown-overnight|Metal Meltdown Overnight]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Mic Drop]]></showname>
+		<slug><![CDATA[mic-drop]]></slug>
+		<undefined2><![CDATA[mic-drop|Mic Drop]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Miscellaneous, PA.]]></showname>
+		<slug><![CDATA[miscellaneous-pa]]></slug>
+		<undefined2><![CDATA[miscellaneous-pa|Miscellaneous, PA.]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Music I'd Play for My Dying Ferret]]></showname>
+		<slug><![CDATA[music-id-play-for-my-dying-ferret]]></slug>
+		<undefined2><![CDATA[music-id-play-for-my-dying-ferret|Music I'd Play for My Dying Ferret]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Neosuburbia]]></showname>
+		<slug><![CDATA[neosuburbia]]></slug>
+		<undefined2><![CDATA[neosuburbia|Neosuburbia]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Night of the Living Dread]]></showname>
+		<slug><![CDATA[night-of-the-living-dread]]></slug>
+		<undefined2><![CDATA[night-of-the-living-dread|Night of the Living Dread]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Night Radio]]></showname>
+		<slug><![CDATA[night-radio]]></slug>
+		<undefined2><![CDATA[night-radio|Night Radio]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Noise Pollution]]></showname>
+		<slug><![CDATA[noise-pollution]]></slug>
+		<undefined2><![CDATA[noise-pollution|Noise Pollution]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Not Your Grandmother's Classical Music]]></showname>
+		<slug><![CDATA[not-your-grandmothers-classical-music]]></slug>
+		<undefined2><![CDATA[not-your-grandmothers-classical-music|Not Your Grandmother's Classical Music]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Off the Wall]]></showname>
+		<slug><![CDATA[off-the-wall]]></slug>
+		<undefined2><![CDATA[off-the-wall|Off the Wall]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Paradise Garage]]></showname>
+		<slug><![CDATA[paradise-garage]]></slug>
+		<undefined2><![CDATA[paradise-garage|Paradise Garage]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Passport]]></showname>
+		<slug><![CDATA[passport]]></slug>
+		<undefined2><![CDATA[passport|Passport]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Percussive Maintenance]]></showname>
+		<slug><![CDATA[percussive-maintenance]]></slug>
+		<undefined2><![CDATA[percussive-maintenance|Percussive Maintenance]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Polka Changed My Life Today]]></showname>
+		<slug><![CDATA[polka-changed-my-life-today]]></slug>
+		<undefined2><![CDATA[polka-changed-my-life-today|Polka Changed My Life Today]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Polyrhythmic]]></showname>
+		<slug><![CDATA[polyrhythmic]]></slug>
+		<undefined2><![CDATA[polyrhythmic|Polyrhythmic]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Popular Favorites]]></showname>
+		<slug><![CDATA[popular-favorites]]></slug>
+		<undefined2><![CDATA[popular-favorites|Popular Favorites]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Prosper Hazzard]]></showname>
+		<slug><![CDATA[prosper-hazzard]]></slug>
+		<undefined2><![CDATA[prosper-hazzard|Prosper Hazzard]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Queen of Themes]]></showname>
+		<slug><![CDATA[queen-of-themes]]></slug>
+		<undefined2><![CDATA[queen-of-themes|Queen of Themes]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Quest for Fire]]></showname>
+		<slug><![CDATA[quest-for-fire]]></slug>
+		<undefined2><![CDATA[quest-for-fire|Quest for Fire]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Radio Children]]></showname>
+		<slug><![CDATA[radio-children]]></slug>
+		<undefined2><![CDATA[radio-children|Radio Children]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Radio Italia of Cleveland]]></showname>
+		<slug><![CDATA[radio-italia-of-cleveland]]></slug>
+		<undefined2><![CDATA[radio-italia-of-cleveland|Radio Italia of Cleveland]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Reality Check]]></showname>
+		<slug><![CDATA[reality-check]]></slug>
+		<undefined2><![CDATA[reality-check|Reality Check]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Riververse]]></showname>
+		<slug><![CDATA[riververse]]></slug>
+		<undefined2><![CDATA[riververse|Riververse]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Rock FM]]></showname>
+		<slug><![CDATA[rock-fm]]></slug>
+		<undefined2><![CDATA[rock-fm|Rock FM]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Round Trip Ticket]]></showname>
+		<slug><![CDATA[round-trip-ticket]]></slug>
+		<undefined2><![CDATA[round-trip-ticket|Round Trip Ticket]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Route 66]]></showname>
+		<slug><![CDATA[route-66]]></slug>
+		<undefined2><![CDATA[route-66|Route 66]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Shocking Females In Trousers]]></showname>
+		<slug><![CDATA[shocking-females-in-trousers]]></slug>
+		<undefined2><![CDATA[shocking-females-in-trousers|Shocking Females In Trousers]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Skinny Genes]]></showname>
+		<slug><![CDATA[skinny-genes]]></slug>
+		<undefined2><![CDATA[skinny-genes|Skinny Genes]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Solitude]]></showname>
+		<slug><![CDATA[solitude]]></slug>
+		<undefined2><![CDATA[solitude|Solitude]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Soul Delirium]]></showname>
+		<slug><![CDATA[soul-delirium]]></slug>
+		<undefined2><![CDATA[soul-delirium|Soul Delirium]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Soy Milk & Fried Dough]]></showname>
+		<slug><![CDATA[soy-milk-fried-dough]]></slug>
+		<undefined2><![CDATA[soy-milk-fried-dough|Soy Milk & Fried Dough]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[stonecoldbikini]]></showname>
+		<slug><![CDATA[stonecoldbikini]]></slug>
+		<undefined2><![CDATA[stonecoldbikini|stonecoldbikini]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Sunday Matinee]]></showname>
+		<slug><![CDATA[sunday-matinee]]></slug>
+		<undefined2><![CDATA[sunday-matinee|Sunday Matinee]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Sunny Day]]></showname>
+		<slug><![CDATA[sunny-day]]></slug>
+		<undefined2><![CDATA[sunny-day|Sunny Day]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Survey Class]]></showname>
+		<slug><![CDATA[survey-class]]></slug>
+		<undefined2><![CDATA[survey-class|Survey Class]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Sweet and Lowdown]]></showname>
+		<slug><![CDATA[sweet-and-lowdown]]></slug>
+		<undefined2><![CDATA[sweet-and-lowdown|Sweet and Lowdown]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Tea Time with Hannah]]></showname>
+		<slug><![CDATA[tea-time-with-hannah]]></slug>
+		<undefined2><![CDATA[tea-time-with-hannah|Tea Time with Hannah]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The '59 Sound]]></showname>
+		<slug><![CDATA[the-59-sound]]></slug>
+		<undefined2><![CDATA[the-59-sound|The '59 Sound]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The Counselor's Cornucopia Of Classic Rock & Curios]]></showname>
+		<slug><![CDATA[the-counselors-cornucopia-of-classic-rock-curios]]></slug>
+		<undefined2><![CDATA[the-counselors-cornucopia-of-classic-rock-curios|The Counselor's Cornucopia Of Classic Rock & Curios]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The Cream of Broccoli Radio Hour]]></showname>
+		<slug><![CDATA[the-cream-of-broccoli-radio-hour]]></slug>
+		<undefined2><![CDATA[the-cream-of-broccoli-radio-hour|The Cream of Broccoli Radio Hour]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The Good Nite Show With Little Triv]]></showname>
+		<slug><![CDATA[the-good-nite-show-with-little-triv]]></slug>
+		<undefined2><![CDATA[the-good-nite-show-with-little-triv|The Good Nite Show With Little Triv]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The Music Gallery]]></showname>
+		<slug><![CDATA[the-music-gallery]]></slug>
+		<undefined2><![CDATA[the-music-gallery|The Music Gallery]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[The Spandex Years]]></showname>
+		<slug><![CDATA[the-spandex-years]]></slug>
+		<undefined2><![CDATA[the-spandex-years|The Spandex Years]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Three Left Turns]]></showname>
+		<slug><![CDATA[three-left-turns]]></slug>
+		<undefined2><![CDATA[three-left-turns|Three Left Turns]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Treasure Trove]]></showname>
+		<slug><![CDATA[treasure-trove]]></slug>
+		<undefined2><![CDATA[treasure-trove|Treasure Trove]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Treasure Trove Annex]]></showname>
+		<slug><![CDATA[treasure-trove-annex]]></slug>
+		<undefined2><![CDATA[treasure-trove-annex|Treasure Trove Annex]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Tripod Terrace]]></showname>
+		<slug><![CDATA[tripod-terrace]]></slug>
+		<undefined2><![CDATA[tripod-terrace|Tripod Terrace]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Voices & Choices]]></showname>
+		<slug><![CDATA[voices-choices]]></slug>
+		<undefined2><![CDATA[voices-choices|Voices & Choices]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Walking Vibration]]></showname>
+		<slug><![CDATA[walking-vibration]]></slug>
+		<undefined2><![CDATA[walking-vibration|Walking Vibration]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Wandering in Sound]]></showname>
+		<slug><![CDATA[wandering-in-sound]]></slug>
+		<undefined2><![CDATA[wandering-in-sound|Wandering in Sound]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Welcome 2 Wonderland]]></showname>
+		<slug><![CDATA[welcome-2-wonderland]]></slug>
+		<undefined2><![CDATA[welcome-2-wonderland|Welcome 2 Wonderland]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[What You Need]]></showname>
+		<slug><![CDATA[what-you-need]]></slug>
+		<undefined2><![CDATA[what-you-need|What You Need]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+	<node>
+		<showname><![CDATA[Woodchopper's Ball]]></showname>
+		<slug><![CDATA[woodchoppers-ball]]></slug>
+		<undefined2><![CDATA[woodchoppers-ball|Woodchopper's Ball]]></undefined2>
+		<template><![CDATA[show]]></template>
+	</node>
+</data>

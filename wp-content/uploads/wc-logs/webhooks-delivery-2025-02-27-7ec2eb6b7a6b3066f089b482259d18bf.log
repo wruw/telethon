@@ -1,0 +1,56 @@
+2025-02-27T21:05:47+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9c81959ce7fbf6158d070dedf089a297
+            [Date] => Feb 27, 2025 @ 21:05
+            [URL] => https://telethon.wruw.org/showcache.php
+            [Duration] => 14.98452
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.7.0 Hookshot (WordPress/6.7.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://telethon.wruw.org/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => PYL27J3OzRUQQQ8mqJJZ79IXZyv9Z2prcjE0XSJM9v0=
+                            [X-WC-Webhook-ID] => 4
+                            [X-WC-Webhook-Delivery-ID] => 9c81959ce7fbf6158d070dedf089a297
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Thu, 27 Feb 2025 21:05:47 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [cf-cache-status] => DYNAMIC
+                                    [vary] => accept-encoding
+                                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2FTrizSgtA9LvLpPlRDktfQ90Zq5DTg4dQUQeWLPWVmxxw5MNYURVKGxA1jW2uG5uMcZpzZCqDx4eDaXTIOC7NxtRUGF0L6r6slyh1VgeGvr7DNz4ht0zPMpe%2F4vpNIcEjAG6Yc5RnEFuEnYa8MchxA%3D%3D"}],"group":"cf-nel","max_age":604800}
+                                    [nel] => {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+                                    [server] => cloudflare
+                                    [cf-ray] => 918b223658ac57a3-IAD
+                                    [content-encoding] => zstd
+                                    [alt-svc] => h3=":443"; ma=86400
+                                    [server-timing] => cfL4;desc="?proto=TCP&rtt=1915&min_rtt=1910&rtt_var=547&sent=5&recv=10&lost=0&retrans=0&sent_bytes=2830&recv_bytes=5029&delivery_rate=2086687&cwnd=252&unsent_bytes=0&cid=407cf63a0e38b109&ts=14555&x=0"
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)

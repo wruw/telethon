@@ -5,15 +5,14 @@
  * @package automattic/jetpack
  */
 
-// Ensure WPCOM_REST_API_Proxy_Request_Trait is present.
-require_once __DIR__ . '/trait-wpcom-rest-api-proxy-request-trait.php';
+use Automattic\Jetpack\Connection\Traits\WPCOM_REST_API_Proxy_Request;
 
 /**
  * REST API endpoint wpcom/v3/sites/%s/blogging-prompts.
  */
 class WPCOM_REST_API_V3_Endpoint_Blogging_Prompts extends WP_REST_Posts_Controller {
 
-	use WPCOM_REST_API_Proxy_Request_Trait;
+	use WPCOM_REST_API_Proxy_Request;
 
 	const TEMPLATE_BLOG_ID = 205876834;
 
@@ -335,12 +334,18 @@ class WPCOM_REST_API_V3_Endpoint_Blogging_Prompts extends WP_REST_Posts_Controll
 	/**
 	 * Return true if the post is in "Bloganuary"
 	 *
-	 * @param string $post_date_gmt Post date in GMT.
-	 * @return bool True if the post is in "Bloganuary".
+	 * @param string $post_date_gmt Unused - Post date in GMT.
+	 * @return bool Always returns false as Bloganuary is disabled.
 	 */
-	protected function is_in_bloganuary( $post_date_gmt ) {
-		$post_month = gmdate( 'm', strtotime( $post_date_gmt ) );
-		return $post_month === '01';
+	protected function is_in_bloganuary( $post_date_gmt ) { //phpcs:ignore VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
+
+		/*
+		Disable for January 2025 and beyond (see https://wp.me/p5uIfZ-gxX).
+			Previously, this method would check if the post was published in January:
+			- Extract month from post_date_gmt -- $post_month = gmdate( 'm', strtotime( $post_date_gmt ) );
+			- Return true if month was '01' -- return $post_month === '01';
+		*/
+		return false;
 	}
 
 	/**

@@ -237,7 +237,7 @@ $cme_negate_none_tooltip_msg = '<span class="tool-tip-text">
 
 			$cap_type_names = array(
 				'' => __( '&nbsp;', 'capability-manager-enhanced' ),
-				'read' => __( 'Reading', 'capability-manager-enhanced' ),
+				'read' => __( 'Private', 'capability-manager-enhanced' ),
 				'edit' => __( 'Editing', 'capability-manager-enhanced' ),
 				'delete' => __( 'Deletion', 'capability-manager-enhanced' ),
                 'taxonomies' => __( 'Taxonomies', 'capability-manager-enhanced' ),
@@ -256,16 +256,16 @@ $cme_negate_none_tooltip_msg = '<span class="tool-tip-text">
             }
 
 			$cap_tips = array(
-				'read_private' => esc_attr__( 'can read posts which are currently published with private visibility', 'capability-manager-enhanced' ),
-				'edit' => esc_attr__( 'has basic editing capability (but may need other capabilities based on post status and ownership)', 'capability-manager-enhanced' ),
-				'edit_others' => esc_attr__( 'can edit posts which were created by other users', 'capability-manager-enhanced' ),
-				'edit_published' => esc_attr__( 'can edit posts which are currently published', 'capability-manager-enhanced' ),
-				'edit_private' => esc_attr__( 'can edit posts which are currently published with private visibility', 'capability-manager-enhanced' ),
-				'publish' => esc_attr__( 'can make a post publicly visible', 'capability-manager-enhanced' ),
-				'delete' => esc_attr__( 'has basic deletion capability (but may need other capabilities based on post status and ownership)', 'capability-manager-enhanced' ),
-				'delete_others' => esc_attr__( 'can delete posts which were created by other users', 'capability-manager-enhanced' ),
-				'delete_published' => esc_attr__( 'can delete posts which are currently published', 'capability-manager-enhanced' ),
-				'delete_private' => esc_attr__( 'can delete posts which are currently published with private visibility', 'capability-manager-enhanced' ),
+				'read_private' => esc_attr__( 'Can read posts which are currently published with private visibility.', 'capability-manager-enhanced' ),
+				'edit' => esc_attr__( 'Has basic editing capability (but may need other capabilities based on post status and ownership).', 'capability-manager-enhanced' ),
+				'edit_others' => esc_attr__( 'Can edit posts which were created by other users.', 'capability-manager-enhanced' ),
+				'edit_published' => esc_attr__( 'Can edit posts which are currently published.', 'capability-manager-enhanced' ),
+				'edit_private' => esc_attr__( 'Can edit posts which are currently published with private visibility.', 'capability-manager-enhanced' ),
+				'publish' => esc_attr__( 'Can make a post publicly visible.', 'capability-manager-enhanced' ),
+				'delete' => esc_attr__( 'Has basic deletion capability (but may need other capabilities based on post status and ownership).', 'capability-manager-enhanced' ),
+				'delete_others' => esc_attr__( 'Can delete posts which were created by other users.', 'capability-manager-enhanced' ),
+				'delete_published' => esc_attr__( 'Can delete posts which are currently published.', 'capability-manager-enhanced' ),
+				'delete_private' => esc_attr__( 'Can delete posts which are currently published with private visibility.', 'capability-manager-enhanced' ),
 			);
 
 			$default_caps = array( 'read_private_posts', 'edit_posts', 'edit_others_posts', 'edit_published_posts', 'edit_private_posts', 'publish_posts', 'delete_posts', 'delete_others_posts', 'delete_published_posts', 'delete_private_posts',
@@ -623,9 +623,18 @@ $cme_negate_none_tooltip_msg = '<span class="tool-tip-text">
 									continue;
 								}
 
-								$tip = ( isset( $cap_tips[$prop] ) ) ? $cap_tips[$prop] : '';
 								$th_class = ( 'taxonomy' == $item_type ) ? 'term-cap' : 'post-cap';
-								echo "<th style='text-align:center;' title='" . esc_attr($tip) . "' class='" . esc_attr($th_class) . "'>";
+
+								$tip_text = '';
+								if ( isset( $cap_tips[$prop] ) ) {
+									$th_class .= ' ppc-tool-tip';
+									$tip_text = '<div class="tool-tip-text">
+										<p>'. $cap_tips[$prop] .'</p>
+										<i></i>
+									</div>';
+								}
+
+								echo "<th style='text-align:center;' class='" . esc_attr($th_class) . "'>" . $tip_text;
 
 								if ( ( 'delete' != $prop ) || ( 'taxonomy' != $item_type ) || cme_get_detailed_taxonomies() ) {
 									echo str_replace('_', '<br />', esc_html(ucwords($prop)));
@@ -1268,7 +1277,7 @@ $cme_negate_none_tooltip_msg = '<span class="tool-tip-text">
 
 						<div>
 						<span class="cme-subtext">
-							<?php esc_html_e('The following entries have no effect. Please assign desired capabilities on the Editing / Deletion / Reading tabs.', 'capability-manager-enhanced');?>
+							<?php esc_html_e('The following entries have no effect. Please assign desired capabilities on the Editing / Deletion / Private tabs.', 'capability-manager-enhanced');?>
 						</span>
 						</div>
 
@@ -1806,7 +1815,7 @@ $cme_negate_none_tooltip_msg = '<span class="tool-tip-text">
 			<?php
 			$save_caption = (in_array(sanitize_key(get_locale()), ['en_EN', 'en_US'])) ? 'Save Capabilities' : esc_html__('Save Changes');
 			?>
-			<input type="submit" name="SaveRole" value="<?php echo esc_attr($save_caption);?>" class="button-primary" /> &nbsp;
+			<input type="submit" name="SaveRole" value="<?php echo esc_attr($save_caption);?>" class="button-primary" style="float: right;" /> &nbsp;
 		</p>
 
 		</div><!-- .pp-column-left -->

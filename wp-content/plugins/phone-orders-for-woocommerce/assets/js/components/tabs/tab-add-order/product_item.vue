@@ -239,7 +239,8 @@
           </template>
           <template v-else>
             {{ itemCostInputPrefix }} <input type="text" autocomplete="off" placeholder="0" v-model.lazy="costModel"
-                                             size="4" v-bind:disabled="!cartEnabled" name="wpo-item-cost-value">
+                                             size="4" v-bind:disabled="!cartEnabled" name="wpo-item-cost-value" ref="cost"
+                                             @keydown.tab.prevent="openProductQty">
           </template>
           <div class="cost_with_tax" style="padding: 4px" v-if="showCostWithTax">
             {{ formatPrice(costWithTax, precision) }}
@@ -264,6 +265,7 @@
                  :class="{'fractional-qty': this.allowToInputFractionalQty}"
                  :disabled="!cartEnabled"
                  :max="item.in_stock"
+                 @keydown.tab.prevent="openProductSearchSelect"
                  @keyup.enter="openProductSearchSelect"
                  @blur="changeQty"
                  @mousedown="setFocus"
@@ -324,7 +326,8 @@
           </template>
           <template v-else>
             {{ itemCostInputPrefix }} <input type="text" autocomplete="off" placeholder="0" v-model.lazy="costModel"
-                                             size="4" v-bind:disabled="!cartEnabled" name="wpo-item-cost-value">
+                                             size="4" v-bind:disabled="!cartEnabled" name="wpo-item-cost-value" ref="cost"
+                                             @keydown.tab.prevent="openProductQty">
           </template>
           <div class="cost_with_tax" style="padding: 4px 0" v-if="showCostWithTax">
             <del v-if="costWithTaxOrig">{{ formatPrice(costWithTaxOrig, precision) }}</del>
@@ -351,6 +354,7 @@
                  :class="{'fractional-qty': this.allowToInputFractionalQty}"
                  :disabled="!cartEnabled"
                  :max="item.in_stock"
+                 @keydown.tab.prevent="openProductSearchSelect"
                  @keyup.enter="openProductSearchSelect"
                  @blur="changeQty"
                  @mousedown="setFocus"
@@ -488,8 +492,7 @@ import ProductCustomMetaFields from './product_custom_meta_fields.vue';
 import ProductSubscriptionFields from './product_subscription_fields.vue';
 
 import {library} from '@fortawesome/fontawesome-svg-core';
-import {faAlignJustify} from '@fortawesome/free-solid-svg-icons';
-import {faEdit} from '@fortawesome/free-solid-svg-icons';
+import {faAlignJustify, faEdit} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon as FaIcon} from '@fortawesome/vue-fontawesome';
 
 library.add(faAlignJustify)
@@ -837,11 +840,8 @@ export default {
       return typeof window.wpo_frontend === 'undefined' && this.isDefaultActionProductItemLinkEditProduct ? this.item.product_link : this.item.permalink;
     },
     minQty() {
-      let minQty = '1';
-      if (this.getSettingsOption('allow_to_input_fractional_qty')) {
-        minQty = typeof this.item.min_qty !== 'undefined' ? this.item.min_qty : '0.01';
-      }
-      return minQty;
+      let defMinQty = this.getSettingsOption('allow_to_input_fractional_qty') ? '0.01' : '1';
+      return typeof this.item.min_qty !== 'undefined' ? this.item.min_qty : defMinQty;
     },
     isDefaultActionProductItemLinkEditProduct() {
       return this.getSettingsOption('action_click_on_title_product_item_in_cart', 'edit_product') === 'edit_product';
@@ -985,6 +985,13 @@ export default {
     },
     openProductSearchSelect() {
       this.$root.bus.$emit('open-search-product');
+    },
+    openProductQty() {
+      if (!this.item.sold_individually) {
+        this.$refs.qty.focus();
+      } else {
+        this.openProductSearchSelect()
+      }
     },
     changeQty() {
       this.qty = this.tmpQty;

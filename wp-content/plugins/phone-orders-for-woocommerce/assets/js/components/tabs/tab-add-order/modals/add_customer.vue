@@ -482,7 +482,7 @@ export default {
       return this.getSettingsOption('google_map_api_key');
     },
     addressFields() {
-      var addressFields = ['country', 'address_1', 'address_2', 'city', 'state', 'postcode'];
+      var addressFields = ['country', 'company', 'address_1', 'address_2', 'city', 'state', 'postcode', 'phone'];
       return addressFields.concat(this.addressAdditionalKeys);
     },
     addressAdditionalKeys() {
@@ -496,7 +496,7 @@ export default {
       return addressAdditionalKeys;
     },
     personalFields() {
-      return ['username', 'password', 'email', 'role', 'locale', 'first_name', 'last_name', 'company', 'phone'];
+      return ['username', 'password', 'email', 'role', 'locale', 'first_name', 'last_name'];
     },
     doNotSubmitOnEnterLastField() {
       return this.getSettingsOption('do_not_submit_on_enter_last_field');

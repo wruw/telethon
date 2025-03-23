@@ -5,7 +5,7 @@ Tags: woocommerce, phone orders, manual orders, call center
 Requires PHP: 5.4.0
 Requires at least: 4.8
 Tested up to: 6.7
-Stable tag: 3.9.3
+Stable tag: 3.9.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,6 +108,15 @@ Please, visit >WooCommerce>Settings>Shipping>Shipping Options and turn off "Hide
 8. Interface settings
 
 == Changelog ==
+
+= 3.9.5 2025-02-12 =
+* Updated "New Customer" and "Edit Address" forms
+* Fixed bug - product search was inactive when page loaded
+* Fixed bug - conflict with coupons added by "WooCommerce Extended Coupon Features FREE"
+* Fixed bug - corrected code for filter "woocommerce_quantity_input_args"
+
+= 3.9.4 2024-12-16 =
+* Internal, not released
 
 = 3.9.3 2024-12-02 =
 * Fixed critical bug - fatal error if shop has 1000+ products

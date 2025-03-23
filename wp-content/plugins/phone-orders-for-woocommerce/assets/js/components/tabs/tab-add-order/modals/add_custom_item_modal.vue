@@ -146,7 +146,7 @@ export default {
     },
     addCustomItemLabel: {
       default: function () {
-        return 'Create custom product';
+        return 'Add custom product';
       }
     },
     skuNameLabel: {

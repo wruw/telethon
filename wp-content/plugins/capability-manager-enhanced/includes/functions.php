@@ -272,6 +272,19 @@ function ppc_test_user_init () {
 }
 add_action('init', 'ppc_test_user_init');
 
+/**
+ * Implement admin notices feature
+ *
+ * @return void
+ */
+function ppc_admin_notices_init () {
+    if (pp_capabilities_feature_enabled('admin-notices')) {
+        require_once(PUBLISHPRESS_CAPS_ABSPATH . '/includes/admin-notices/admin-notices.php');
+        PP_Capabilities_Admin_Notices::init();
+    }
+}
+add_action('init', 'ppc_admin_notices_init');
+
 
 /**
 * Redirect user after registration.
@@ -279,6 +292,11 @@ add_action('init', 'ppc_test_user_init');
 * @param int $user_id The user ID.
 */
 function ppc_role_redirect_after_registration($user_id) {
+    // Skip redirection if the request is from the admin area.
+    if (is_admin()) {
+        return;
+    }
+    
     $user = get_user_by('ID', $user_id);
     
     if (pp_capabilities_feature_enabled('redirects') && is_object($user) && isset($user->roles) && is_array($user->roles)) {

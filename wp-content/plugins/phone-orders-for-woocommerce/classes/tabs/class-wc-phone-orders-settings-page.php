@@ -403,6 +403,10 @@ class WC_Phone_Orders_Settings_Page extends WC_Phone_Orders_Admin_Abstract_Page
         <?php
     }
 
+    static function esc_double_quotes($value) {
+        return str_replace('&quot;', '“', $value);
+    }
+
     private function generate_session_key()
     {
         return md5(time() . mt_rand(1, 100000));
@@ -421,6 +425,11 @@ class WC_Phone_Orders_Settings_Page extends WC_Phone_Orders_Admin_Abstract_Page
                     $settings['cache_' . $type . '_session_key'] = $this->generate_session_key();
                 }
             }
+        }
+
+        // disable quick search if filter products by category/tags is active
+        if ($settings['search_by_cat_and_tag']) {
+            $settings['quick_search'] = false;
         }
 
         $settings = apply_filters('wpo_ajax_save_settings', $settings);

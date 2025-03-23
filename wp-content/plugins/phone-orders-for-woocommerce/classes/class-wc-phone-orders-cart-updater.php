@@ -597,7 +597,8 @@ class WC_Phone_Orders_Cart_Updater
         // coupons
         foreach ($cart_data['coupons'] as $item) {
             $code = isset($item['code']) ? $item['code'] : (isset($item['title']) ? $item['title'] : false);
-            WC()->cart->add_discount($code);
+            if( !in_array($code, WC()->cart->get_applied_coupons()) ) // coupon can be aded already by another plugin!
+                WC()->cart->add_discount($code);
             $coupon = new WC_Coupon(wc_format_coupon_code($code));
             if ($coupon->get_free_shipping() && $at_least_one_coupon_added && in_array($code, $coupons_added, true)) {
                 unset($cart_data['shipping']['packages']);
@@ -1412,6 +1413,13 @@ class WC_Phone_Orders_Cart_Updater
             $min_qty = $default_qty_step;
         }
 
+        $args = apply_filters('woocommerce_quantity_input_args', [
+            'input_value' => $min_qty,
+            'max_value'   => $in_stock,
+            'min_value'   => $min_qty,
+            'step'        => $qty_step,
+        ], $product);
+
         return apply_filters('wpo_get_item_by_product', array(
             'product_id'                      => $product_id,
             'item_cost'                       => wc_format_decimal($item_cost, wc_get_price_decimals()),
@@ -1422,12 +1430,12 @@ class WC_Phone_Orders_Cart_Updater
             'custom_meta_fields'              => isset($item_data['custom_meta_fields']) ? $item_data['custom_meta_fields'] : array(),
             'missing_variation_attributes'    => $variation_id ? $missing_variation_attributes : '',
             'name'                            => $product->get_name(),
-            'qty'                             => $qty,
+            'qty'                             => max($qty, $args["input_value"]),
             'type'                            => 'line_item',
-            'in_stock'                        => $in_stock,
+            'in_stock'                        => min($args["max_value"], $in_stock),
             'decimals'                        => wc_get_price_decimals(),
-            'qty_step'                        => $qty_step,
-            'min_qty'                         => $min_qty,
+            'qty_step'                        => $args["step"],
+            'min_qty'                         => $args["min_value"],
             'is_enabled_tax'                  => $this->is_tax_enabled(),
             'is_price_included_tax'           => wc_prices_include_tax(),
             'sku'                             => esc_html($product->get_sku()),

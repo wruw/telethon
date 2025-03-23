@@ -58,6 +58,7 @@
                 :allow-empty="false"
                 :show-labels="false"
                 @close="closeMultipleSelectedProducts"
+                @keydown.tab.prevent="setFocusToLastItem"
                 :preserve-search="isExistsAdditionalProductSearchParams"
                 :block-keys="['Delete']"
                 v-store-search-multiselect
@@ -1172,6 +1173,10 @@ export default {
       this.$root.bus.$on('recalculate-cart', () => {
         if (this.autoRecalculate) {
           this.recalculate();
+
+          if (this.productList.length > 0) {
+            this.setFocusOnNewProduct(this.productList[this.productList.length - 1]);
+          }
         } else {
           this.manualRecalculate();
         }
@@ -1242,8 +1247,8 @@ export default {
   },
   mounted: function () {
 
-    if (this.quickSearch) {
-      this.asyncQuickSearch('')
+    if (this.quickSearch && !this.isBarcodeMode) {
+      this.getQuickSearchProducts();
     }
 
     if (this.scrollableCartContentsOption) {
@@ -1292,7 +1297,7 @@ export default {
     },
     addProductButtonTitle: {
       default: function () {
-        return 'Create custom product';
+        return 'Add custom product';
       }
     },
     addProductFromShopTitle: {
@@ -2185,6 +2190,37 @@ export default {
 
       return weight;
     },
+    async getQuickSearchProducts() {
+      this.quickSearchProducts = await this.axios.post(this.url, this.qs.stringify({
+        action: 'phone-orders-for-woocommerce',
+        method: 'get_products_quick_search',
+        tab: this.tabName,
+        wpo_cache_products_key: this.cacheProductsSessionKey,
+        customer_id: this.customer.id,
+        cart: JSON.stringify(this.clearCartParam(this.$store.state.add_order.cart)),
+        nonce: this.nonce,
+      })).then((response) => {
+        if (response.data.hasOwnProperty('data') && response.data?.data) {
+          let products = response.data.data;
+
+          products = products.map((product) => {
+            let wordsToMatch = [
+              ...(product.sku ? product.sku : []),
+              ...(product.title_clean ? product.title_clean : []),
+              ...(product.attributes ? Object.values(product.attributes) : [])
+            ];
+            wordsToMatch = wordsToMatch.map(word => word.toLowerCase());
+            product.words_to_match = [...new Set(wordsToMatch)];
+
+            return product;
+          })
+
+          return products;
+        } else {
+          return []
+        }
+      });
+    },
     async asyncQuickSearch(query) {
       if (this.disableProductSearch) {
         return;
@@ -2199,34 +2235,6 @@ export default {
       this.showEmptyResultFindProducts = true;
 
       this.isLoading = true;
-
-      if (this.quickSearchProducts.length === 0) {
-        this.quickSearchProducts = await this.axios.post(this.url, this.qs.stringify({
-          action: 'phone-orders-for-woocommerce',
-          method: 'get_products_quick_search',
-          tab: this.tabName,
-          wpo_cache_products_key: this.cacheProductsSessionKey,
-          customer_id: this.customer.id,
-          cart: JSON.stringify(this.clearCartParam(this.$store.state.add_order.cart)),
-          nonce: this.nonce,
-        })).then((response) => {
-          if (response.data.hasOwnProperty('data') && response.data?.data) {
-            let products = response.data.data;
-
-            products = products.map((product) => {
-              let wordsToMatch = [...(product.sku ? product.sku : []), ...(product.title_clean ? product.title_clean : [])];
-              wordsToMatch = wordsToMatch.map(word => word.toLowerCase());
-              product.words_to_match = [...new Set(wordsToMatch)];
-
-              return product;
-            })
-
-            return products;
-          } else {
-            return []
-          }
-        });
-      }
 
       let query_words = query ? query.toLowerCase().split(/[$&+,:;=?@#|\/'"`<>.^*\s(){}[\]%!-]/) : [];
       query_words = query_words.filter(function (entry) {
@@ -2293,7 +2301,7 @@ export default {
       this.isLoading = false;
     },
     searchProducts(query, isEmptySearch, runSearch) {
-      if (this.quickSearch) {
+      if (this.quickSearch && !this.isBarcodeMode && this.quickSearchProducts.length !== 0) {
         this.asyncQuickSearch(query);
       } else {
         this.asyncFind(query, isEmptySearch, runSearch)
@@ -2733,12 +2741,39 @@ export default {
           return;
         }
 
-
         this.searchProducts(this.$refs.productSelectSearch.search, this.isExistsAdditionalProductSearchParams);
-        this.productSelectCloseOnSelected && response.data.data.items.length && this.setFocusToItemQty(response.data.data.items[0]);
+        this.productSelectCloseOnSelected && response.data.data.items.length && (this.setFocusOnNewProduct(response.data.data.items[0]));
       }, () => {
         this.isLoading = false;
       });
+    },
+    setFocusOnNewProduct(item) {
+      if (!this.isBarcodeMode) {
+        if (this.isPriceChangeAvailable(item)) {
+          this.setFocusToItemPrice(item)
+        } else if (this.isQtyChangeAvailible(item)) {
+          this.setFocusToItemQty(item)
+        }
+      }
+    },
+    setFocusToLastItem() {
+      let copyProductList = this.productList.slice(0);
+      for (let item of copyProductList.reverse()) {
+        if (this.isPriceChangeAvailable(item)) {
+          this.setFocusToItemPrice(item)
+          break
+        } else if (this.isQtyChangeAvailible(item)) {
+          this.setFocusToItemQty(item)
+          break
+        }
+      }
+    },
+    setFocusToItemPrice(item) {
+      if (this.isPriceChangeAvailable(item)) {
+        this.$nextTick(() => {
+          this.$refs[this.getProductRef(item)].$refs['cost'].focus();
+        });
+      }
     },
     setFocusToItemQty(item) {
       if (this.isQtyChangeAvailible(item)) {
@@ -2749,6 +2784,9 @@ export default {
     },
     isQtyChangeAvailible(item) {
       return !item.sold_individually;
+    },
+    isPriceChangeAvailable(item) {
+      return !item.is_readonly_price;
     },
     openSelectSearchProduct() {
       this.showSearchMultipleSelectedProducts = true;
@@ -2803,6 +2841,7 @@ export default {
     },
     openProductSearchSelect() {
       this.$refs.productSelectSearch.activate();
+      this.$refs.productSelectSearch.$refs.search.focus()
     },
     recalculate() {
 
@@ -2827,7 +2866,6 @@ export default {
         this.$store.commit('add_order/setIsLoading', false);
         this.$store.commit('add_order/setIsLoadingWithoutBackground', false);
       });
-
     },
     recalculateCallback(cart) {
 
@@ -2932,7 +2970,6 @@ export default {
         this.weightTotal = 0;
         this.$store.commit('add_order/setCalculatedDeletedItems', []);
       }
-
     },
     getProductKey(item) {
       return item.key ? item.key : (item.variation_id ? item.variation_id : item.product_id);
@@ -2987,9 +3024,8 @@ export default {
           To prevent it, we move setting focus from "mounted" event
          */
         this.$nextTick(() => {
-          if (this.isBarcodeMode) {
-            this.openProductSearchSelect();
-          }
+          this.openProductSearchSelect();
+
           if (typeof params['customer_id'] === 'string'
             && params['customer_id'].toLowerCase() === 'new'
           ) {

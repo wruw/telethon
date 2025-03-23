@@ -305,6 +305,17 @@ class WC_Phone_Orders_Settings
 
     public function filter_sanitize_string($value)
     {
+        $value = str_replace(
+            [
+                '“', '”', '"',
+                '᳓', '＂', '‟',
+                '″', '‶', '〃',
+                '״', '˝', 'ʺ',
+                '˶', 'ˮ', 'ײ'
+            ],
+            '“',
+            $value
+        );
         return htmlspecialchars($value);
     }
 

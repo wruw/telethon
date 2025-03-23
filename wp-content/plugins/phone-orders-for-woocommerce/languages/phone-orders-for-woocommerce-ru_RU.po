@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce Phone Orders\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-05 06:30+0000\n"
-"PO-Revision-Date: 2024-11-27 07:14+0000\n"
+"PO-Revision-Date: 2025-02-12 06:47+0000\n"
 "Last-Translator: Lumpur Koa\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -57,6 +57,12 @@ msgstr "Добавить купон"
 msgid "Add coupon"
 msgstr "Добавить купон"
 
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:98
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:459
+#| msgid "Create custom product"
+msgid "Add custom product"
+msgstr "Добавить пользовательский продукт"
+
 #: classes/tabs/class-wc-phone-orders-add-order-page.php:159
 #: classes/tabs/class-wc-phone-orders-add-order-page.php:482
 msgid "Add discount"
@@ -100,11 +106,11 @@ msgstr "Добавить в заказ"
 msgid "Address Validation Service API Key (USPS Username)"
 msgstr "Ключ API службы проверки адреса (имя пользователя USPS)"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:829
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:825
 msgid "Address1"
 msgstr "Адрес 1"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:833
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:829
 msgid "Address2"
 msgstr "Адрес 2"
 
@@ -248,7 +254,7 @@ msgstr "Выберите метаполе"
 msgid "Choose period"
 msgstr "Выберите период"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:837
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:833
 msgid "City"
 msgstr "Город"
 
@@ -265,7 +271,7 @@ msgstr "Свернуть меню WordPress"
 msgid "Common"
 msgstr "Общие"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:817
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:821
 msgid "Company"
 msgstr "Компания"
 
@@ -300,7 +306,7 @@ msgstr "Копировать URL для заполнения тележки"
 msgid "Cost"
 msgstr "Стоимость"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:825
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:817
 msgid "Country"
 msgstr "Страна"
 
@@ -316,11 +322,6 @@ msgstr "Купоны"
 msgid "Coupons applied"
 msgstr "Использованы купоны"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:98
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:459
-msgid "Create custom product"
-msgstr "Создать собственный продукт"
-
 #. Description of the plugin
 msgid "Create manual/phone orders in WooCommerce quickly"
 msgstr "Создание заказов вручную / телефона в WooCommerce"
@@ -330,7 +331,7 @@ msgid "Create new order"
 msgstr "Создать новый заказ"
 
 #: classes/class-wc-phone-orders-loader.php:69
-#: classes/class-wc-phone-orders-loader.php:460
+#: classes/class-wc-phone-orders-loader.php:458
 msgid "Create Order"
 msgstr "Создать заказ"
 
@@ -401,7 +402,7 @@ msgstr ""
 "Отображение результатов автозаполнения только для выбранных стран (API "
 "Google Map)"
 
-#: classes/class-wc-phone-orders-loader.php:464
+#: classes/class-wc-phone-orders-loader.php:462
 msgid "Docs"
 msgstr "Документация"
 
@@ -487,7 +488,7 @@ msgstr "Найти продукты ..."
 msgid "First name"
 msgstr "Имя"
 
-#: classes/class-wc-phone-orders-loader.php:378
+#: classes/class-wc-phone-orders-loader.php:376
 msgid "five star"
 msgstr "Пять звезд"
 
@@ -603,7 +604,7 @@ msgstr ""
 "сформированный отчет."
 
 #. 1: WooCommerce 2:: five stars
-#: classes/class-wc-phone-orders-loader.php:370
+#: classes/class-wc-phone-orders-loader.php:368
 #, php-format
 msgid ""
 "If you like %1$s please leave us a %2$s rating. Thank you so much in advance!"
@@ -769,8 +770,8 @@ msgstr "Способ доставки не был выбран."
 msgid "No shipping methods available"
 msgstr "Нет доступных способов доставки"
 
-#: classes/class-wc-phone-orders-cart-updater.php:1650
-#: classes/class-wc-phone-orders-cart-updater.php:1687
+#: classes/class-wc-phone-orders-cart-updater.php:1659
+#: classes/class-wc-phone-orders-cart-updater.php:1696
 #: classes/tabs/abstract-wc-phone-orders-tab.php:445
 #: classes/tabs/abstract-wc-phone-orders-tab.php:466
 msgid "No value"
@@ -871,11 +872,11 @@ msgid "Payment Type"
 msgstr "Способ оплаты"
 
 #: classes/tabs/class-wc-phone-orders-tabs-helper.php:233
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:821
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:845
 msgid "Phone"
 msgstr "Телефон"
 
-#: classes/class-wc-phone-orders-loader.php:481
+#: classes/class-wc-phone-orders-loader.php:479
 msgid "Phone order"
 msgstr "Заказ по телефону"
 
@@ -885,11 +886,11 @@ msgid "Phone Orders"
 msgstr "Телефонные заказы"
 
 #. Name of the plugin
-#: classes/class-wc-phone-orders-loader.php:376
+#: classes/class-wc-phone-orders-loader.php:374
 msgid "Phone Orders for WooCommerce"
 msgstr "Заказы по телефону для WooCommerce"
 
-#: classes/class-wc-phone-orders-loader.php:256
+#: classes/class-wc-phone-orders-loader.php:254
 #, php-format
 msgid ""
 "Phone Orders For WooCommerce is available <a href=\"%s\">on this page</a>."
@@ -897,7 +898,7 @@ msgstr ""
 "Телефонные заказы для WooCommerce доступны <a href=\"%s\"> на этой странице "
 "</a>."
 
-#: phone-orders-for-woocommerce.php:62
+#: phone-orders-for-woocommerce.php:61
 msgid "Phone Orders for WooCommerce requires active WooCommerce!"
 msgstr "Телефонные заказы для WooCommerce требуют активной WooCommerce!"
 
@@ -911,7 +912,7 @@ msgstr "Файлы PHP не допускаются"
 msgid "Please fill out all required fields!"
 msgstr "Пожалуйста, заполните все обязательные поля!"
 
-#: phone-orders-for-woocommerce.php:36
+#: phone-orders-for-woocommerce.php:35
 msgid ""
 "Please, <a href=\"plugins.php\">deactivate</a> Free version of Phone Orders "
 "for WooCommerce!"
@@ -977,7 +978,7 @@ msgstr ""
 "Пожалуйста, посетите> WooCommerce> Настройки> Доставка и добавьте способ "
 "доставки для необходимых зон."
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:845
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:841
 msgid "Postcode"
 msgstr "Индекс"
 
@@ -1227,7 +1228,7 @@ msgstr "Артикул:"
 msgid "Standard rate"
 msgstr "Стандартная ставка"
 
-#: classes/tabs/class-wc-phone-orders-add-order-page.php:841
+#: classes/tabs/class-wc-phone-orders-add-order-page.php:837
 msgid "State/County"
 msgstr "Область"
 
@@ -1243,7 +1244,7 @@ msgstr "номер улицы"
 msgid "Subtotal"
 msgstr "Промежуточный итог"
 
-#: classes/class-wc-phone-orders-loader.php:468
+#: classes/class-wc-phone-orders-loader.php:466
 msgid "Support"
 msgstr "Служба поддержки"
 
@@ -1263,7 +1264,7 @@ msgstr "Налоговый класс"
 msgid "Taxes"
 msgstr "Налоги"
 
-#: classes/class-wc-phone-orders-loader.php:381
+#: classes/class-wc-phone-orders-loader.php:379
 msgid "Thanks :)"
 msgstr "Благодарность :)"
 

@@ -313,6 +313,7 @@ function pp_capabilities_settings_options() {
        'cme_test_user_excluded_roles',
        'cme_profile_features_auto_redirect',
        'cme_role_same_page_redirect_cookie',
+       'cme_admin_notice_options',
    ];
 
    return apply_filters('pp_capabilities_settings_options', $settings_options);
@@ -404,6 +405,11 @@ function pp_capabilities_dashboard_options() {
         'description'  => esc_html__('Test your site by instantly logging in as another user. Available accounts include any which the current user can edit.', 'capability-manager-enhanced'),
     ];
 
+    $features['admin-notices'] = [
+        'label'        => esc_html__('Admin Notices', 'capability-manager-enhanced'),
+        'description'  => esc_html__('Remove Admin Notices from WordPress admin screen and organize them in to a single area.', 'capability-manager-enhanced'),
+    ];
+
     $features = apply_filters('pp_capabilities_dashboard_features', $features);
 
     return $features;
@@ -465,6 +471,15 @@ function pp_capabilities_sub_menu_lists($cme_fakefunc = false) {
         'callback'          => $cme_fakefunc ? 'cme_fakefunc' : [$capsman, 'ManageFrontendFeatures'],
         'dashboard_control' => true,
     ];
+    if ($cme_fakefunc) {
+        $sub_menu_pages['admin-menus'] = [
+            'title'             => __('Admin Menus', 'capability-manager-enhanced'),
+            'capabilities'      => $super_user ? 'read' : 'manage_capabilities_admin_menus',
+            'page'              => 'pp-capabilities-admin-menus',
+            'callback'          => 'cme_fakefunc',
+            'dashboard_control' => true,
+        ];
+    }
     $sub_menu_pages['profile-features'] = [
         'title'             => __('Profile Features', 'capability-manager-enhanced'),
         'capabilities'      => $super_user ? 'read' : 'manage_capabilities_profile_features',
@@ -479,15 +494,6 @@ function pp_capabilities_sub_menu_lists($cme_fakefunc = false) {
         'callback'          => $cme_fakefunc ? 'cme_fakefunc' : [$capsman, 'ManageRedirects'],
         'dashboard_control' => true,
     ];
-    if ($cme_fakefunc) {
-        $sub_menu_pages['admin-menus'] = [
-            'title'             => __('Admin Menus', 'capability-manager-enhanced'),
-            'capabilities'      => $super_user ? 'read' : 'manage_capabilities_admin_menus',
-            'page'              => 'pp-capabilities-admin-menus',
-            'callback'          => 'cme_fakefunc',
-            'dashboard_control' => true,
-        ];
-    }
     $sub_menu_pages['nav-menus'] = [
         'title'             => __('Nav Menus', 'capability-manager-enhanced'),
         'capabilities'      => $super_user ? 'read' : 'manage_capabilities_nav_menus',

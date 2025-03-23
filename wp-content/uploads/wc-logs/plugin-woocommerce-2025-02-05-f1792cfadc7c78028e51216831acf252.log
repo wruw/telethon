@@ -1,0 +1,1 @@
+2025-02-05T14:37:03+00:00 WARNING The WooCommerce Admin Navigation feature and its classes (Screen, Menu, CoreMenu) are deprecated since 9.3 with no alternative. Please remove the call to add_plugin_item.

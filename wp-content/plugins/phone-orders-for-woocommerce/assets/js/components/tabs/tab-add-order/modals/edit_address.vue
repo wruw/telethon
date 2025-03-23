@@ -279,12 +279,12 @@ export default {
     },
     personalFieldsOrder: {
       default: function () {
-        return ['email', 'role', 'first_name', 'last_name', 'company', 'phone', 'locale'];
+        return ['email', 'role', 'first_name', 'last_name', 'country', 'company', 'address_1', 'address_2'];
       }
     },
     addressFieldsOrder: {
       default: function () {
-        return ['country', 'address_1', 'address_2', 'city', 'state', 'postcode'];
+        return ['city', 'state', 'postcode', 'phone', 'locale'];
       }
     },
     countFieldsInRow: {

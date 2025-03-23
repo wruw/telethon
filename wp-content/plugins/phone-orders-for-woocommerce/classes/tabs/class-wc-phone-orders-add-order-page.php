@@ -95,7 +95,7 @@ class WC_Phone_Orders_Add_Order_Page extends WC_Phone_Orders_Admin_Abstract_Page
                 'noOptionsTitle'         => __('List is empty.', 'phone-orders-for-woocommerce'),
             ),
             'addCustomItemModalSettings'        => array(
-                'addCustomItemLabel'            => __('Create custom product', 'phone-orders-for-woocommerce'),
+                'addCustomItemLabel'            => __('Add custom product', 'phone-orders-for-woocommerce'),
                 'skuNameLabel'                  => __('SKU', 'phone-orders-for-woocommerce'),
                 'taxClassLabel'                 => __('Tax class', 'phone-orders-for-woocommerce'),
                 'itemTaxClasses'                => $this->make_tax_classes(),
@@ -207,11 +207,11 @@ class WC_Phone_Orders_Add_Order_Page extends WC_Phone_Orders_Admin_Abstract_Page
                 'noOptionsTitle'                     => __('List is empty.', 'phone-orders-for-woocommerce'),
                 'personalFieldsOrder'                => apply_filters(
                     'wpo_edit_address_modal_personal_fields_order',
-                    array('email', 'role', 'first_name', 'last_name', 'company', 'phone', 'locale')
+                    array('email', 'role', 'first_name', 'last_name', 'country', 'company', 'address_1', 'address_2' )
                 ),
                 'addressFieldsOrder'                 => apply_filters(
                     'wpo_edit_address_modal_address_fields_order',
-                    array('country', 'address_1', 'address_2', 'city', 'state', 'postcode')
+                    array('city', 'state', 'postcode', 'phone', 'locale' )
                 ),
                 'countFieldsInRow'                   => apply_filters('wpo_edit_address_modal_count_fields_in_row', 2),
                 'customGoogleAutocompleteJsCallback' => apply_filters(
@@ -457,7 +457,7 @@ class WC_Phone_Orders_Add_Order_Page extends WC_Phone_Orders_Admin_Abstract_Page
                     '<h2><span>' . __('Order %s details', 'phone-orders-for-woocommerce') . '</span></h2>'
                 ),
                 'addProductButtonTitle'                       => __(
-                    'Create custom product',
+                    'Add custom product',
                     'phone-orders-for-woocommerce'
                 ),
                 'addProductFromShopTitle'                     => __(
@@ -813,17 +813,13 @@ class WC_Phone_Orders_Add_Order_Page extends WC_Phone_Orders_Admin_Abstract_Page
             'billingAddress' => array(
                 'label'  => __('Billing address', 'phone-orders-for-woocommerce'),
                 'fields' => array(
-                    'company'   => array(
-                        'label' => __('Company', 'phone-orders-for-woocommerce'),
-                        'value' => '',
-                    ),
-                    'phone'     => array(
-                        'label' => __('Phone', 'phone-orders-for-woocommerce'),
-                        'value' => '',
-                    ),
                     'country'   => array(
                         'label' => __('Country', 'phone-orders-for-woocommerce'),
                         'value' => $this->option_handler->get_option('default_country'),
+                    ),
+                    'company'   => array(
+                        'label' => __('Company', 'phone-orders-for-woocommerce'),
+                        'value' => '',
                     ),
                     'address_1' => array(
                         'label' => __('Address1', 'phone-orders-for-woocommerce'),
@@ -844,6 +840,10 @@ class WC_Phone_Orders_Add_Order_Page extends WC_Phone_Orders_Admin_Abstract_Page
                     'postcode'  => array(
                         'label' => __('Postcode', 'phone-orders-for-woocommerce'),
                         'value' => $this->option_handler->get_option('default_postcode'),
+                    ),
+                    'phone'     => array(
+                        'label' => __('Phone', 'phone-orders-for-woocommerce'),
+                        'value' => '',
                     ),
                 )
             ),
